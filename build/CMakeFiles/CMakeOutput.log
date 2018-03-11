@@ -772,3 +772,2194 @@ make[1]: Leaving directory '/home/herb/bin/LearnGL/MyOpenGL_temp/build/CMakeFile
 
 Source file was:
 int main(void) { return 0; }
+The system is: MINGW64_NT-10.0 - 2.10.0(0.325/5/3) - unknown
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /mingw64/bin/cc.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+
+The C compiler identification is GNU, found in "/home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/3.10.2/CompilerIdC/a.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /mingw64/bin/CC.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+
+The CXX compiler identification is GNU, found in "/home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/3.10.2/CompilerIdCXX/a.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make.exe" "cmTC_436e8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_436e8.dir/build.make CMakeFiles/cmTC_436e8.dir/build
+make[1]: ディレクトリ '/home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_436e8.dir/testCCompiler.c.obj
+/mingw64/bin/cc.exe    -o CMakeFiles/cmTC_436e8.dir/testCCompiler.c.obj   -c /home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_436e8
+/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_436e8.dir/link.txt --verbose=1
+/mingw64/bin/cc.exe      CMakeFiles/cmTC_436e8.dir/testCCompiler.c.obj  -o cmTC_436e8 
+make[1]: ディレクトリ '/home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp' から出ます
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make.exe" "cmTC_0897a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0897a.dir/build.make CMakeFiles/cmTC_0897a.dir/build
+make[1]: ディレクトリ '/home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_0897a.dir/CMakeCCompilerABI.c.obj
+/mingw64/bin/cc.exe    -o CMakeFiles/cmTC_0897a.dir/CMakeCCompilerABI.c.obj   -c /usr/share/cmake-3.10.2/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_0897a
+/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_0897a.dir/link.txt --verbose=1
+/mingw64/bin/cc.exe     -v CMakeFiles/cmTC_0897a.dir/CMakeCCompilerABI.c.obj  -o cmTC_0897a 
+Using built-in specs.
+COLLECT_GCC=C:\msys64\mingw64\bin\cc.exe
+COLLECT_LTO_WRAPPER=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/lto-wrapper.exe
+Target: x86_64-w64-mingw32
+Configured with: ../gcc-7.3.0/configure --prefix=/mingw64 --with-local-prefix=/mingw64/local --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --with-native-system-header-dir=/mingw64/x86_64-w64-mingw32/include --libexecdir=/mingw64/lib --enable-bootstrap --with-arch=x86-64 --with-tune=generic --enable-languages=c,lto,c++,objc,obj-c++,fortran,ada --enable-shared --enable-static --enable-libatomic --enable-threads=posix --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-time=yes --enable-libstdcxx-filesystem-ts=yes --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-isl-version-check --enable-lto --enable-libgomp --disable-multilib --enable-checking=release --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-libiconv --with-system-zlib --with-gmp=/mingw64 --with-mpfr=/mingw64 --with-mpc=/mingw64 --with-isl=/mingw64 --with-pkgversion='Rev1, Built by MSYS2 project' --with-bugurl=https://sourceforge.net/projects/msys2 --with-gnu-as --with-gnu-ld
+Thread model: posix
+gcc version 7.3.0 (Rev1, Built by MSYS2 project) 
+COMPILER_PATH=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/;C:/msys64/mingw64/bin/../lib/gcc/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/bin/
+LIBRARY_PATH=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/;C:/msys64/mingw64/bin/../lib/gcc/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../lib/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0897a.exe' '-mtune=generic' '-march=x86-64'
+ C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/collect2.exe -plugin C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/liblto_plugin-0.dll -plugin-opt=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\msys64\tmp\cctnLjyu.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -m i386pep -Bdynamic -o cmTC_0897a.exe C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/crtbegin.o -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0 -LC:/msys64/mingw64/bin/../lib/gcc -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../.. CMakeFiles/cmTC_0897a.dir/CMakeCCompilerABI.c.obj -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0897a.exe' '-mtune=generic' '-march=x86-64'
+make[1]: ディレクトリ '/home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp' から出ます
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make.exe" "cmTC_0897a/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_0897a.dir/build.make CMakeFiles/cmTC_0897a.dir/build]
+  ignore line: [make[1]: ディレクトリ '/home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp' に入ります]
+  ignore line: [Building C object CMakeFiles/cmTC_0897a.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [/mingw64/bin/cc.exe    -o CMakeFiles/cmTC_0897a.dir/CMakeCCompilerABI.c.obj   -c /usr/share/cmake-3.10.2/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_0897a]
+  ignore line: [/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_0897a.dir/link.txt --verbose=1]
+  ignore line: [/mingw64/bin/cc.exe     -v CMakeFiles/cmTC_0897a.dir/CMakeCCompilerABI.c.obj  -o cmTC_0897a ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=C:\msys64\mingw64\bin\cc.exe]
+  ignore line: [COLLECT_LTO_WRAPPER=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/lto-wrapper.exe]
+  ignore line: [Target: x86_64-w64-mingw32]
+  ignore line: [Configured with: ../gcc-7.3.0/configure --prefix=/mingw64 --with-local-prefix=/mingw64/local --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --with-native-system-header-dir=/mingw64/x86_64-w64-mingw32/include --libexecdir=/mingw64/lib --enable-bootstrap --with-arch=x86-64 --with-tune=generic --enable-languages=c,lto,c++,objc,obj-c++,fortran,ada --enable-shared --enable-static --enable-libatomic --enable-threads=posix --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-time=yes --enable-libstdcxx-filesystem-ts=yes --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-isl-version-check --enable-lto --enable-libgomp --disable-multilib --enable-checking=release --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-libiconv --with-system-zlib --with-gmp=/mingw64 --with-mpfr=/mingw64 --with-mpc=/mingw64 --with-isl=/mingw64 --with-pkgversion='Rev1, Built by MSYS2 project' --with-bugurl=https://sourceforge.net/projects/msys2 --with-gnu-as --with-gnu-ld]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.3.0 (Rev1, Built by MSYS2 project) ]
+  ignore line: [COMPILER_PATH=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/]
+  ignore line: [C:/msys64/mingw64/bin/../lib/gcc/]
+  ignore line: [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/bin/]
+  ignore line: [LIBRARY_PATH=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/]
+  ignore line: [C:/msys64/mingw64/bin/../lib/gcc/]
+  ignore line: [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+  ignore line: [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../lib/]
+  ignore line: [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/]
+  ignore line: [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0897a.exe' '-mtune=generic' '-march=x86-64']
+  link line: [ C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/collect2.exe -plugin C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/liblto_plugin-0.dll -plugin-opt=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\msys64\tmp\cctnLjyu.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -m i386pep -Bdynamic -o cmTC_0897a.exe C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/crtbegin.o -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0 -LC:/msys64/mingw64/bin/../lib/gcc -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../.. CMakeFiles/cmTC_0897a.dir/CMakeCCompilerABI.c.obj -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/crtend.o]
+    arg [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/collect2.exe] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/liblto_plugin-0.dll] ==> ignore
+    arg [-plugin-opt=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/lto-wrapper.exe] ==> ignore
+    arg [-plugin-opt=-fresolution=C:msys64tmpcctnLjyu.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+    arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+    arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+    arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+    arg [-m] ==> ignore
+    arg [i386pep] ==> ignore
+    arg [-Bdynamic] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_0897a.exe] ==> ignore
+    arg [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> ignore
+    arg [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/crtbegin.o] ==> ignore
+    arg [-LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0] ==> dir [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0]
+    arg [-LC:/msys64/mingw64/bin/../lib/gcc] ==> dir [C:/msys64/mingw64/bin/../lib/gcc]
+    arg [-LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> dir [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/../lib]
+    arg [-LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../lib] ==> dir [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../lib]
+    arg [-LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib] ==> dir [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib]
+    arg [-LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../..] ==> dir [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../..]
+    arg [CMakeFiles/cmTC_0897a.dir/CMakeCCompilerABI.c.obj] ==> ignore
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc_eh] ==> lib [gcc_eh]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-lpthread] ==> lib [pthread]
+    arg [-ladvapi32] ==> lib [advapi32]
+    arg [-lshell32] ==> lib [shell32]
+    arg [-luser32] ==> lib [user32]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc_eh] ==> lib [gcc_eh]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o] ==> ignore
+    arg [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/crtend.o] ==> ignore
+  remove lib [gcc_eh]
+  remove lib [msvcrt]
+  remove lib [gcc_eh]
+  remove lib [msvcrt]
+  collapse library dir [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0] ==> [C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0]
+  collapse library dir [C:/msys64/mingw64/bin/../lib/gcc] ==> [C:/msys64/mingw64/lib/gcc]
+  collapse library dir [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> [C:/msys64/mingw64/x86_64-w64-mingw32/lib]
+  collapse library dir [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../lib] ==> [C:/msys64/mingw64/lib]
+  collapse library dir [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib] ==> [C:/msys64/mingw64/x86_64-w64-mingw32/lib]
+  collapse library dir [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../..] ==> [C:/msys64/mingw64/lib]
+  implicit libs: [mingw32;gcc;moldname;mingwex;pthread;advapi32;shell32;user32;kernel32;mingw32;gcc;moldname;mingwex]
+  implicit dirs: [C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0;C:/msys64/mingw64/lib/gcc;C:/msys64/mingw64/x86_64-w64-mingw32/lib;C:/msys64/mingw64/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make.exe" "cmTC_597bb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_597bb.dir/build.make CMakeFiles/cmTC_597bb.dir/build
+make[1]: ディレクトリ '/home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_597bb.dir/feature_tests.c.obj
+/mingw64/bin/cc.exe   -std=c11 -o CMakeFiles/cmTC_597bb.dir/feature_tests.c.obj   -c /home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_597bb
+/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_597bb.dir/link.txt --verbose=1
+/mingw64/bin/cc.exe      CMakeFiles/cmTC_597bb.dir/feature_tests.c.obj  -o cmTC_597bb 
+make[1]: ディレクトリ '/home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp' から出ます
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make.exe" "cmTC_0fb0a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0fb0a.dir/build.make CMakeFiles/cmTC_0fb0a.dir/build
+make[1]: ディレクトリ '/home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_0fb0a.dir/feature_tests.c.obj
+/mingw64/bin/cc.exe   -std=c99 -o CMakeFiles/cmTC_0fb0a.dir/feature_tests.c.obj   -c /home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_0fb0a
+/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_0fb0a.dir/link.txt --verbose=1
+/mingw64/bin/cc.exe      CMakeFiles/cmTC_0fb0a.dir/feature_tests.c.obj  -o cmTC_0fb0a 
+make[1]: ディレクトリ '/home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp' から出ます
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make.exe" "cmTC_e698b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e698b.dir/build.make CMakeFiles/cmTC_e698b.dir/build
+make[1]: ディレクトリ '/home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_e698b.dir/feature_tests.c.obj
+/mingw64/bin/cc.exe   -std=c90 -o CMakeFiles/cmTC_e698b.dir/feature_tests.c.obj   -c /home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_e698b
+/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_e698b.dir/link.txt --verbose=1
+/mingw64/bin/cc.exe      CMakeFiles/cmTC_e698b.dir/feature_tests.c.obj  -o cmTC_e698b 
+make[1]: ディレクトリ '/home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp' から出ます
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make.exe" "cmTC_ea7c3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ea7c3.dir/build.make CMakeFiles/cmTC_ea7c3.dir/build
+make[1]: ディレクトリ '/home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp' に入ります
+Building CXX object CMakeFiles/cmTC_ea7c3.dir/testCXXCompiler.cxx.obj
+/mingw64/bin/CC.exe     -o CMakeFiles/cmTC_ea7c3.dir/testCXXCompiler.cxx.obj -c /home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_ea7c3
+/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_ea7c3.dir/link.txt --verbose=1
+/mingw64/bin/CC.exe       CMakeFiles/cmTC_ea7c3.dir/testCXXCompiler.cxx.obj  -o cmTC_ea7c3 
+make[1]: ディレクトリ '/home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp' から出ます
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make.exe" "cmTC_d7d10/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d7d10.dir/build.make CMakeFiles/cmTC_d7d10.dir/build
+make[1]: ディレクトリ '/home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp' に入ります
+Building CXX object CMakeFiles/cmTC_d7d10.dir/CMakeCXXCompilerABI.cpp.obj
+/mingw64/bin/CC.exe     -o CMakeFiles/cmTC_d7d10.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake-3.10.2/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_d7d10
+/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_d7d10.dir/link.txt --verbose=1
+/mingw64/bin/CC.exe      -v CMakeFiles/cmTC_d7d10.dir/CMakeCXXCompilerABI.cpp.obj  -o cmTC_d7d10 
+Using built-in specs.
+COLLECT_GCC=C:\msys64\mingw64\bin\CC.exe
+COLLECT_LTO_WRAPPER=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/lto-wrapper.exe
+Target: x86_64-w64-mingw32
+Configured with: ../gcc-7.3.0/configure --prefix=/mingw64 --with-local-prefix=/mingw64/local --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --with-native-system-header-dir=/mingw64/x86_64-w64-mingw32/include --libexecdir=/mingw64/lib --enable-bootstrap --with-arch=x86-64 --with-tune=generic --enable-languages=c,lto,c++,objc,obj-c++,fortran,ada --enable-shared --enable-static --enable-libatomic --enable-threads=posix --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-time=yes --enable-libstdcxx-filesystem-ts=yes --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-isl-version-check --enable-lto --enable-libgomp --disable-multilib --enable-checking=release --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-libiconv --with-system-zlib --with-gmp=/mingw64 --with-mpfr=/mingw64 --with-mpc=/mingw64 --with-isl=/mingw64 --with-pkgversion='Rev1, Built by MSYS2 project' --with-bugurl=https://sourceforge.net/projects/msys2 --with-gnu-as --with-gnu-ld
+Thread model: posix
+gcc version 7.3.0 (Rev1, Built by MSYS2 project) 
+COMPILER_PATH=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/;C:/msys64/mingw64/bin/../lib/gcc/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/bin/
+LIBRARY_PATH=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/;C:/msys64/mingw64/bin/../lib/gcc/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../lib/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d7d10.exe' '-mtune=generic' '-march=x86-64'
+ C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/collect2.exe -plugin C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/liblto_plugin-0.dll -plugin-opt=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\msys64\tmp\ccbinsJ0.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -m i386pep -Bdynamic -o cmTC_d7d10.exe C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/crtbegin.o -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0 -LC:/msys64/mingw64/bin/../lib/gcc -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../.. CMakeFiles/cmTC_d7d10.dir/CMakeCXXCompilerABI.cpp.obj -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d7d10.exe' '-mtune=generic' '-march=x86-64'
+make[1]: ディレクトリ '/home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp' から出ます
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make.exe" "cmTC_d7d10/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_d7d10.dir/build.make CMakeFiles/cmTC_d7d10.dir/build]
+  ignore line: [make[1]: ディレクトリ '/home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp' に入ります]
+  ignore line: [Building CXX object CMakeFiles/cmTC_d7d10.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [/mingw64/bin/CC.exe     -o CMakeFiles/cmTC_d7d10.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake-3.10.2/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_d7d10]
+  ignore line: [/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_d7d10.dir/link.txt --verbose=1]
+  ignore line: [/mingw64/bin/CC.exe      -v CMakeFiles/cmTC_d7d10.dir/CMakeCXXCompilerABI.cpp.obj  -o cmTC_d7d10 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=C:\msys64\mingw64\bin\CC.exe]
+  ignore line: [COLLECT_LTO_WRAPPER=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/lto-wrapper.exe]
+  ignore line: [Target: x86_64-w64-mingw32]
+  ignore line: [Configured with: ../gcc-7.3.0/configure --prefix=/mingw64 --with-local-prefix=/mingw64/local --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --with-native-system-header-dir=/mingw64/x86_64-w64-mingw32/include --libexecdir=/mingw64/lib --enable-bootstrap --with-arch=x86-64 --with-tune=generic --enable-languages=c,lto,c++,objc,obj-c++,fortran,ada --enable-shared --enable-static --enable-libatomic --enable-threads=posix --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-time=yes --enable-libstdcxx-filesystem-ts=yes --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-isl-version-check --enable-lto --enable-libgomp --disable-multilib --enable-checking=release --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-libiconv --with-system-zlib --with-gmp=/mingw64 --with-mpfr=/mingw64 --with-mpc=/mingw64 --with-isl=/mingw64 --with-pkgversion='Rev1, Built by MSYS2 project' --with-bugurl=https://sourceforge.net/projects/msys2 --with-gnu-as --with-gnu-ld]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.3.0 (Rev1, Built by MSYS2 project) ]
+  ignore line: [COMPILER_PATH=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/]
+  ignore line: [C:/msys64/mingw64/bin/../lib/gcc/]
+  ignore line: [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/bin/]
+  ignore line: [LIBRARY_PATH=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/]
+  ignore line: [C:/msys64/mingw64/bin/../lib/gcc/]
+  ignore line: [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+  ignore line: [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../lib/]
+  ignore line: [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/]
+  ignore line: [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d7d10.exe' '-mtune=generic' '-march=x86-64']
+  link line: [ C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/collect2.exe -plugin C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/liblto_plugin-0.dll -plugin-opt=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\msys64\tmp\ccbinsJ0.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -m i386pep -Bdynamic -o cmTC_d7d10.exe C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/crtbegin.o -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0 -LC:/msys64/mingw64/bin/../lib/gcc -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../.. CMakeFiles/cmTC_d7d10.dir/CMakeCXXCompilerABI.cpp.obj -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/crtend.o]
+    arg [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/collect2.exe] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/liblto_plugin-0.dll] ==> ignore
+    arg [-plugin-opt=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/lto-wrapper.exe] ==> ignore
+    arg [-plugin-opt=-fresolution=C:msys64tmpccbinsJ0.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+    arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+    arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+    arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+    arg [-m] ==> ignore
+    arg [i386pep] ==> ignore
+    arg [-Bdynamic] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_d7d10.exe] ==> ignore
+    arg [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> ignore
+    arg [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/crtbegin.o] ==> ignore
+    arg [-LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0] ==> dir [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0]
+    arg [-LC:/msys64/mingw64/bin/../lib/gcc] ==> dir [C:/msys64/mingw64/bin/../lib/gcc]
+    arg [-LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> dir [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/../lib]
+    arg [-LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../lib] ==> dir [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../lib]
+    arg [-LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib] ==> dir [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib]
+    arg [-LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../..] ==> dir [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../..]
+    arg [CMakeFiles/cmTC_d7d10.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc_eh] ==> lib [gcc_eh]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-lpthread] ==> lib [pthread]
+    arg [-ladvapi32] ==> lib [advapi32]
+    arg [-lshell32] ==> lib [shell32]
+    arg [-luser32] ==> lib [user32]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc_eh] ==> lib [gcc_eh]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o] ==> ignore
+    arg [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/crtend.o] ==> ignore
+  remove lib [gcc_eh]
+  remove lib [msvcrt]
+  remove lib [gcc_eh]
+  remove lib [msvcrt]
+  collapse library dir [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0] ==> [C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0]
+  collapse library dir [C:/msys64/mingw64/bin/../lib/gcc] ==> [C:/msys64/mingw64/lib/gcc]
+  collapse library dir [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> [C:/msys64/mingw64/x86_64-w64-mingw32/lib]
+  collapse library dir [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../lib] ==> [C:/msys64/mingw64/lib]
+  collapse library dir [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib] ==> [C:/msys64/mingw64/x86_64-w64-mingw32/lib]
+  collapse library dir [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../..] ==> [C:/msys64/mingw64/lib]
+  implicit libs: [mingw32;gcc;moldname;mingwex;pthread;advapi32;shell32;user32;kernel32;mingw32;gcc;moldname;mingwex]
+  implicit dirs: [C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0;C:/msys64/mingw64/lib/gcc;C:/msys64/mingw64/x86_64-w64-mingw32/lib;C:/msys64/mingw64/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++1z] compiler features compiled with the following output:
+Change Dir: /home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make.exe" "cmTC_1e083/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1e083.dir/build.make CMakeFiles/cmTC_1e083.dir/build
+make[1]: ディレクトリ '/home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp' に入ります
+Building CXX object CMakeFiles/cmTC_1e083.dir/feature_tests.cxx.obj
+/mingw64/bin/CC.exe    -std=c++1z -o CMakeFiles/cmTC_1e083.dir/feature_tests.cxx.obj -c /home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_1e083
+/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_1e083.dir/link.txt --verbose=1
+/mingw64/bin/CC.exe       CMakeFiles/cmTC_1e083.dir/feature_tests.cxx.obj  -o cmTC_1e083 
+make[1]: ディレクトリ '/home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp' から出ます
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make.exe" "cmTC_a9d5d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a9d5d.dir/build.make CMakeFiles/cmTC_a9d5d.dir/build
+make[1]: ディレクトリ '/home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp' に入ります
+Building CXX object CMakeFiles/cmTC_a9d5d.dir/feature_tests.cxx.obj
+/mingw64/bin/CC.exe    -std=c++14 -o CMakeFiles/cmTC_a9d5d.dir/feature_tests.cxx.obj -c /home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_a9d5d
+/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_a9d5d.dir/link.txt --verbose=1
+/mingw64/bin/CC.exe       CMakeFiles/cmTC_a9d5d.dir/feature_tests.cxx.obj  -o cmTC_a9d5d 
+make[1]: ディレクトリ '/home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp' から出ます
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make.exe" "cmTC_3c600/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3c600.dir/build.make CMakeFiles/cmTC_3c600.dir/build
+make[1]: ディレクトリ '/home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp' に入ります
+Building CXX object CMakeFiles/cmTC_3c600.dir/feature_tests.cxx.obj
+/mingw64/bin/CC.exe    -std=c++11 -o CMakeFiles/cmTC_3c600.dir/feature_tests.cxx.obj -c /home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_3c600
+/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_3c600.dir/link.txt --verbose=1
+/mingw64/bin/CC.exe       CMakeFiles/cmTC_3c600.dir/feature_tests.cxx.obj  -o cmTC_3c600 
+make[1]: ディレクトリ '/home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp' から出ます
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make.exe" "cmTC_4020c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4020c.dir/build.make CMakeFiles/cmTC_4020c.dir/build
+make[1]: ディレクトリ '/home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp' に入ります
+Building CXX object CMakeFiles/cmTC_4020c.dir/feature_tests.cxx.obj
+/mingw64/bin/CC.exe    -std=c++98 -o CMakeFiles/cmTC_4020c.dir/feature_tests.cxx.obj -c /home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_4020c
+/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_4020c.dir/link.txt --verbose=1
+/mingw64/bin/CC.exe       CMakeFiles/cmTC_4020c.dir/feature_tests.cxx.obj  -o cmTC_4020c 
+make[1]: ディレクトリ '/home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp' から出ます
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make.exe" "cmTC_bc77b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bc77b.dir/build.make CMakeFiles/cmTC_bc77b.dir/build
+make[1]: ディレクトリ '/home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_bc77b.dir/CheckIncludeFile.c.obj
+/mingw64/bin/cc.exe    -o CMakeFiles/cmTC_bc77b.dir/CheckIncludeFile.c.obj   -c /home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_bc77b
+/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_bc77b.dir/link.txt --verbose=1
+/mingw64/bin/cc.exe      CMakeFiles/cmTC_bc77b.dir/CheckIncludeFile.c.obj  -o cmTC_bc77b 
+make[1]: ディレクトリ '/home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if the pthread_create exist passed with the following output:
+Change Dir: /home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make.exe" "cmTC_1d614/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1d614.dir/build.make CMakeFiles/cmTC_1d614.dir/build
+make[1]: ディレクトリ '/home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_1d614.dir/CheckSymbolExists.c.obj
+/mingw64/bin/cc.exe    -o CMakeFiles/cmTC_1d614.dir/CheckSymbolExists.c.obj   -c /home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_1d614
+/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_1d614.dir/link.txt --verbose=1
+/mingw64/bin/cc.exe      CMakeFiles/cmTC_1d614.dir/CheckSymbolExists.c.obj  -o cmTC_1d614 
+make[1]: ディレクトリ '/home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp' から出ます
+
+File /home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the include file dinput.h exists passed with the following output:
+Change Dir: /home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make.exe" "cmTC_3c98b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3c98b.dir/build.make CMakeFiles/cmTC_3c98b.dir/build
+make[1]: ディレクトリ '/home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_3c98b.dir/CheckIncludeFile.c.obj
+/mingw64/bin/cc.exe    -o CMakeFiles/cmTC_3c98b.dir/CheckIncludeFile.c.obj   -c /home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_3c98b
+/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_3c98b.dir/link.txt --verbose=1
+/mingw64/bin/cc.exe      CMakeFiles/cmTC_3c98b.dir/CheckIncludeFile.c.obj  -o cmTC_3c98b 
+make[1]: ディレクトリ '/home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if the include file xinput.h exists passed with the following output:
+Change Dir: /home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make.exe" "cmTC_1d0e6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1d0e6.dir/build.make CMakeFiles/cmTC_1d0e6.dir/build
+make[1]: ディレクトリ '/home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_1d0e6.dir/CheckIncludeFile.c.obj
+/mingw64/bin/cc.exe    -o CMakeFiles/cmTC_1d0e6.dir/CheckIncludeFile.c.obj   -c /home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_1d0e6
+/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_1d0e6.dir/link.txt --verbose=1
+/mingw64/bin/cc.exe      CMakeFiles/cmTC_1d0e6.dir/CheckIncludeFile.c.obj  -o cmTC_1d0e6 
+make[1]: ディレクトリ '/home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp' から出ます
+
+
+Performing C SOURCE FILE Test _GLFW_HAS_DEP succeeded with the following output:
+Change Dir: /home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make.exe" "cmTC_5d718/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5d718.dir/build.make CMakeFiles/cmTC_5d718.dir/build
+make[1]: Entering directory '/home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5d718.dir/src.c.obj
+/mingw64/bin/cc.exe   -D_GLFW_HAS_DEP -Wl,--nxcompat   -o CMakeFiles/cmTC_5d718.dir/src.c.obj   -c /home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_5d718
+/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_5d718.dir/link.txt --verbose=1
+/mingw64/bin/cc.exe  -D_GLFW_HAS_DEP -Wl,--nxcompat    CMakeFiles/cmTC_5d718.dir/src.c.obj  -o cmTC_5d718 
+make[1]: Leaving directory '/home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test _GLFW_HAS_ASLR succeeded with the following output:
+Change Dir: /home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make.exe" "cmTC_38ec5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_38ec5.dir/build.make CMakeFiles/cmTC_38ec5.dir/build
+make[1]: Entering directory '/home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_38ec5.dir/src.c.obj
+/mingw64/bin/cc.exe   -D_GLFW_HAS_ASLR -Wl,--dynamicbase   -o CMakeFiles/cmTC_38ec5.dir/src.c.obj   -c /home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_38ec5
+/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_38ec5.dir/link.txt --verbose=1
+/mingw64/bin/cc.exe  -D_GLFW_HAS_ASLR -Wl,--dynamicbase    CMakeFiles/cmTC_38ec5.dir/src.c.obj  -o cmTC_38ec5 
+make[1]: Leaving directory '/home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test _GLFW_HAS_64ASLR succeeded with the following output:
+Change Dir: /home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make.exe" "cmTC_c2075/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c2075.dir/build.make CMakeFiles/cmTC_c2075.dir/build
+make[1]: Entering directory '/home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c2075.dir/src.c.obj
+/mingw64/bin/cc.exe   -D_GLFW_HAS_64ASLR -Wl,--high-entropy-va   -o CMakeFiles/cmTC_c2075.dir/src.c.obj   -c /home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_c2075
+/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_c2075.dir/link.txt --verbose=1
+/mingw64/bin/cc.exe  -D_GLFW_HAS_64ASLR -Wl,--high-entropy-va    CMakeFiles/cmTC_c2075.dir/src.c.obj  -o cmTC_c2075 
+make[1]: Leaving directory '/home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+The system is: MINGW64_NT-10.0 - 2.10.0(0.325/5/3) - unknown
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+
+The C compiler identification is GNU, found in "/home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/3.10.2/CompilerIdC/a.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/CC.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+
+The CXX compiler identification is GNU, found in "/home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/3.10.2/CompilerIdCXX/a.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make.exe" "cmTC_ef206/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ef206.dir/build.make CMakeFiles/cmTC_ef206.dir/build
+make[1]: ディレクトリ '/home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_ef206.dir/testCCompiler.c.obj
+/usr/bin/cc.exe    -o CMakeFiles/cmTC_ef206.dir/testCCompiler.c.obj   -c /home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_ef206
+/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_ef206.dir/link.txt --verbose=1
+/usr/bin/cc.exe      CMakeFiles/cmTC_ef206.dir/testCCompiler.c.obj  -o cmTC_ef206 
+make[1]: ディレクトリ '/home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp' から出ます
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make.exe" "cmTC_8b4fe/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8b4fe.dir/build.make CMakeFiles/cmTC_8b4fe.dir/build
+make[1]: ディレクトリ '/home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_8b4fe.dir/CMakeCCompilerABI.c.obj
+/usr/bin/cc.exe    -o CMakeFiles/cmTC_8b4fe.dir/CMakeCCompilerABI.c.obj   -c /usr/share/cmake-3.10.2/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_8b4fe
+/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_8b4fe.dir/link.txt --verbose=1
+/usr/bin/cc.exe     -v CMakeFiles/cmTC_8b4fe.dir/CMakeCCompilerABI.c.obj  -o cmTC_8b4fe 
+組み込み spec を使用しています。
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-msys/6.4.0/lto-wrapper.exe
+ターゲット: x86_64-pc-msys
+configure 設定: /msys_scripts/gcc/src/gcc-6.4.0/configure --build=x86_64-pc-msys --prefix=/usr --libexecdir=/usr/lib --enable-bootstrap --enable-shared --enable-shared-libgcc --enable-static --enable-version-specific-runtime-libs --with-arch=x86-64 --with-tune=generic --disable-multilib --enable-__cxa_atexit --with-dwarf2 --enable-languages=c,c++,fortran,lto --enable-graphite --enable-threads=posix --enable-libatomic --enable-libcilkrts --enable-libgomp --enable-libitm --enable-libquadmath --enable-libquadmath-support --disable-libssp --disable-win32-registry --disable-symvers --with-gnu-ld --with-gnu-as --disable-isl-version-check --enable-checking=release --without-libiconv-prefix --without-libintl-prefix --with-system-zlib --enable-linker-build-id --with-default-libstdcxx-abi=gcc4-compatible
+スレッドモデル: posix
+gcc バージョン 6.4.0 (GCC) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-pc-msys/6.4.0/:/usr/lib/gcc/x86_64-pc-msys/6.4.0/:/usr/lib/gcc/x86_64-pc-msys/:/usr/lib/gcc/x86_64-pc-msys/6.4.0/:/usr/lib/gcc/x86_64-pc-msys/:/usr/lib/gcc/x86_64-pc-msys/6.4.0/../../../../x86_64-pc-msys/bin/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-msys/6.4.0/:/usr/lib/gcc/x86_64-pc-msys/6.4.0/../../../../x86_64-pc-msys/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-msys/6.4.0/../../../../x86_64-pc-msys/lib/:/usr/lib/:/usr/lib/w32api/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8b4fe.exe' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-pc-msys/6.4.0/collect2.exe -plugin /usr/lib/gcc/x86_64-pc-msys/6.4.0/msys-lto_plugin.dll -plugin-opt=/usr/lib/gcc/x86_64-pc-msys/6.4.0/lto-wrapper.exe -plugin-opt=-fresolution=/tmp/ccfBIOVy.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmsys-2.0 -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id -m i386pep --wrap _Znwm --wrap _Znam --wrap _ZdlPv --wrap _ZdaPv --wrap _ZnwmRKSt9nothrow_t --wrap _ZnamRKSt9nothrow_t --wrap _ZdlPvRKSt9nothrow_t --wrap _ZdaPvRKSt9nothrow_t -Bdynamic --dll-search-prefix=msys- --tsaware -o cmTC_8b4fe.exe /usr/lib/../lib/crt0.o /usr/lib/gcc/x86_64-pc-msys/6.4.0/crtbegin.o -L/usr/lib/gcc/x86_64-pc-msys/6.4.0 -L/usr/lib/gcc/x86_64-pc-msys/6.4.0/../../../../x86_64-pc-msys/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-msys/6.4.0/../../../../x86_64-pc-msys/lib -L/usr/lib/w32api CMakeFiles/cmTC_8b4fe.dir/CMakeCCompilerABI.c.obj -lgcc_s --undefined=___deregister_frame_info --undefined=___register_frame_info -lgcc -lmsys-2.0 -ladvapi32 -lshell32 -luser32 -lkernel32 -lgcc_s --undefined=___deregister_frame_info --undefined=___register_frame_info -lgcc /usr/lib/../lib/default-manifest.o /usr/lib/gcc/x86_64-pc-msys/6.4.0/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8b4fe.exe' '-mtune=generic' '-march=x86-64'
+make[1]: ディレクトリ '/home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp' から出ます
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make.exe" "cmTC_8b4fe/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_8b4fe.dir/build.make CMakeFiles/cmTC_8b4fe.dir/build]
+  ignore line: [make[1]: ディレクトリ '/home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp' に入ります]
+  ignore line: [Building C object CMakeFiles/cmTC_8b4fe.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [/usr/bin/cc.exe    -o CMakeFiles/cmTC_8b4fe.dir/CMakeCCompilerABI.c.obj   -c /usr/share/cmake-3.10.2/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_8b4fe]
+  ignore line: [/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_8b4fe.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc.exe     -v CMakeFiles/cmTC_8b4fe.dir/CMakeCCompilerABI.c.obj  -o cmTC_8b4fe ]
+  ignore line: [組み込み spec を使用しています。]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-msys/6.4.0/lto-wrapper.exe]
+  ignore line: [ターゲット: x86_64-pc-msys]
+  ignore line: [configure 設定: /msys_scripts/gcc/src/gcc-6.4.0/configure --build=x86_64-pc-msys --prefix=/usr --libexecdir=/usr/lib --enable-bootstrap --enable-shared --enable-shared-libgcc --enable-static --enable-version-specific-runtime-libs --with-arch=x86-64 --with-tune=generic --disable-multilib --enable-__cxa_atexit --with-dwarf2 --enable-languages=c,c++,fortran,lto --enable-graphite --enable-threads=posix --enable-libatomic --enable-libcilkrts --enable-libgomp --enable-libitm --enable-libquadmath --enable-libquadmath-support --disable-libssp --disable-win32-registry --disable-symvers --with-gnu-ld --with-gnu-as --disable-isl-version-check --enable-checking=release --without-libiconv-prefix --without-libintl-prefix --with-system-zlib --enable-linker-build-id --with-default-libstdcxx-abi=gcc4-compatible]
+  ignore line: [スレッドモデル: posix]
+  ignore line: [gcc バージョン 6.4.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-msys/6.4.0/:/usr/lib/gcc/x86_64-pc-msys/6.4.0/:/usr/lib/gcc/x86_64-pc-msys/:/usr/lib/gcc/x86_64-pc-msys/6.4.0/:/usr/lib/gcc/x86_64-pc-msys/:/usr/lib/gcc/x86_64-pc-msys/6.4.0/../../../../x86_64-pc-msys/bin/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-msys/6.4.0/:/usr/lib/gcc/x86_64-pc-msys/6.4.0/../../../../x86_64-pc-msys/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-msys/6.4.0/../../../../x86_64-pc-msys/lib/:/usr/lib/:/usr/lib/w32api/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8b4fe.exe' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-pc-msys/6.4.0/collect2.exe -plugin /usr/lib/gcc/x86_64-pc-msys/6.4.0/msys-lto_plugin.dll -plugin-opt=/usr/lib/gcc/x86_64-pc-msys/6.4.0/lto-wrapper.exe -plugin-opt=-fresolution=/tmp/ccfBIOVy.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmsys-2.0 -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id -m i386pep --wrap _Znwm --wrap _Znam --wrap _ZdlPv --wrap _ZdaPv --wrap _ZnwmRKSt9nothrow_t --wrap _ZnamRKSt9nothrow_t --wrap _ZdlPvRKSt9nothrow_t --wrap _ZdaPvRKSt9nothrow_t -Bdynamic --dll-search-prefix=msys- --tsaware -o cmTC_8b4fe.exe /usr/lib/../lib/crt0.o /usr/lib/gcc/x86_64-pc-msys/6.4.0/crtbegin.o -L/usr/lib/gcc/x86_64-pc-msys/6.4.0 -L/usr/lib/gcc/x86_64-pc-msys/6.4.0/../../../../x86_64-pc-msys/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-msys/6.4.0/../../../../x86_64-pc-msys/lib -L/usr/lib/w32api CMakeFiles/cmTC_8b4fe.dir/CMakeCCompilerABI.c.obj -lgcc_s --undefined=___deregister_frame_info --undefined=___register_frame_info -lgcc -lmsys-2.0 -ladvapi32 -lshell32 -luser32 -lkernel32 -lgcc_s --undefined=___deregister_frame_info --undefined=___register_frame_info -lgcc /usr/lib/../lib/default-manifest.o /usr/lib/gcc/x86_64-pc-msys/6.4.0/crtend.o]
+    arg [/usr/lib/gcc/x86_64-pc-msys/6.4.0/collect2.exe] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-msys/6.4.0/msys-lto_plugin.dll] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-msys/6.4.0/lto-wrapper.exe] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccfBIOVy.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmsys-2.0] ==> ignore
+    arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+    arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [-m] ==> ignore
+    arg [i386pep] ==> ignore
+    arg [--wrap] ==> ignore
+    arg [_Znwm] ==> ignore
+    arg [--wrap] ==> ignore
+    arg [_Znam] ==> ignore
+    arg [--wrap] ==> ignore
+    arg [_ZdlPv] ==> ignore
+    arg [--wrap] ==> ignore
+    arg [_ZdaPv] ==> ignore
+    arg [--wrap] ==> ignore
+    arg [_ZnwmRKSt9nothrow_t] ==> ignore
+    arg [--wrap] ==> ignore
+    arg [_ZnamRKSt9nothrow_t] ==> ignore
+    arg [--wrap] ==> ignore
+    arg [_ZdlPvRKSt9nothrow_t] ==> ignore
+    arg [--wrap] ==> ignore
+    arg [_ZdaPvRKSt9nothrow_t] ==> ignore
+    arg [-Bdynamic] ==> ignore
+    arg [--dll-search-prefix=msys-] ==> ignore
+    arg [--tsaware] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_8b4fe.exe] ==> ignore
+    arg [/usr/lib/../lib/crt0.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-msys/6.4.0/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-pc-msys/6.4.0] ==> dir [/usr/lib/gcc/x86_64-pc-msys/6.4.0]
+    arg [-L/usr/lib/gcc/x86_64-pc-msys/6.4.0/../../../../x86_64-pc-msys/lib/../lib] ==> dir [/usr/lib/gcc/x86_64-pc-msys/6.4.0/../../../../x86_64-pc-msys/lib/../lib]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-pc-msys/6.4.0/../../../../x86_64-pc-msys/lib] ==> dir [/usr/lib/gcc/x86_64-pc-msys/6.4.0/../../../../x86_64-pc-msys/lib]
+    arg [-L/usr/lib/w32api] ==> dir [/usr/lib/w32api]
+    arg [CMakeFiles/cmTC_8b4fe.dir/CMakeCCompilerABI.c.obj] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--undefined=___deregister_frame_info] ==> ignore
+    arg [--undefined=___register_frame_info] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lmsys-2.0] ==> lib [msys-2.0]
+    arg [-ladvapi32] ==> lib [advapi32]
+    arg [-lshell32] ==> lib [shell32]
+    arg [-luser32] ==> lib [user32]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--undefined=___deregister_frame_info] ==> ignore
+    arg [--undefined=___register_frame_info] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/../lib/default-manifest.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-msys/6.4.0/crtend.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-pc-msys/6.4.0] ==> [/usr/lib/gcc/x86_64-pc-msys/6.4.0]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-msys/6.4.0/../../../../x86_64-pc-msys/lib/../lib] ==> [/usr/x86_64-pc-msys/lib]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-msys/6.4.0/../../../../x86_64-pc-msys/lib] ==> [/usr/x86_64-pc-msys/lib]
+  collapse library dir [/usr/lib/w32api] ==> [/usr/lib/w32api]
+  implicit libs: [gcc_s;gcc;msys-2.0;advapi32;shell32;user32;kernel32;gcc_s;gcc]
+  implicit dirs: [/usr/lib/gcc/x86_64-pc-msys/6.4.0;/usr/x86_64-pc-msys/lib;/usr/lib;/usr/lib/w32api]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make.exe" "cmTC_9ab5f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9ab5f.dir/build.make CMakeFiles/cmTC_9ab5f.dir/build
+make[1]: ディレクトリ '/home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_9ab5f.dir/feature_tests.c.obj
+/usr/bin/cc.exe   -std=c11 -o CMakeFiles/cmTC_9ab5f.dir/feature_tests.c.obj   -c /home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_9ab5f
+/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_9ab5f.dir/link.txt --verbose=1
+/usr/bin/cc.exe      CMakeFiles/cmTC_9ab5f.dir/feature_tests.c.obj  -o cmTC_9ab5f 
+make[1]: ディレクトリ '/home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp' から出ます
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make.exe" "cmTC_536c1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_536c1.dir/build.make CMakeFiles/cmTC_536c1.dir/build
+make[1]: ディレクトリ '/home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_536c1.dir/feature_tests.c.obj
+/usr/bin/cc.exe   -std=c99 -o CMakeFiles/cmTC_536c1.dir/feature_tests.c.obj   -c /home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_536c1
+/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_536c1.dir/link.txt --verbose=1
+/usr/bin/cc.exe      CMakeFiles/cmTC_536c1.dir/feature_tests.c.obj  -o cmTC_536c1 
+make[1]: ディレクトリ '/home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp' から出ます
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make.exe" "cmTC_15e82/fast"
+/usr/bin/make -f CMakeFiles/cmTC_15e82.dir/build.make CMakeFiles/cmTC_15e82.dir/build
+make[1]: ディレクトリ '/home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_15e82.dir/feature_tests.c.obj
+/usr/bin/cc.exe   -std=c90 -o CMakeFiles/cmTC_15e82.dir/feature_tests.c.obj   -c /home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_15e82
+/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_15e82.dir/link.txt --verbose=1
+/usr/bin/cc.exe      CMakeFiles/cmTC_15e82.dir/feature_tests.c.obj  -o cmTC_15e82 
+make[1]: ディレクトリ '/home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp' から出ます
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make.exe" "cmTC_554dd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_554dd.dir/build.make CMakeFiles/cmTC_554dd.dir/build
+make[1]: ディレクトリ '/home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp' に入ります
+Building CXX object CMakeFiles/cmTC_554dd.dir/testCXXCompiler.cxx.o
+/usr/bin/CC.exe     -o CMakeFiles/cmTC_554dd.dir/testCXXCompiler.cxx.o -c /home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_554dd
+/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_554dd.dir/link.txt --verbose=1
+/usr/bin/CC.exe       CMakeFiles/cmTC_554dd.dir/testCXXCompiler.cxx.o  -o cmTC_554dd 
+make[1]: ディレクトリ '/home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp' から出ます
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make.exe" "cmTC_af7bc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_af7bc.dir/build.make CMakeFiles/cmTC_af7bc.dir/build
+make[1]: ディレクトリ '/home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp' に入ります
+Building CXX object CMakeFiles/cmTC_af7bc.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/CC.exe     -o CMakeFiles/cmTC_af7bc.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10.2/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_af7bc
+/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_af7bc.dir/link.txt --verbose=1
+/usr/bin/CC.exe      -v CMakeFiles/cmTC_af7bc.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_af7bc 
+組み込み spec を使用しています。
+COLLECT_GCC=/usr/bin/CC
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-msys/6.4.0/lto-wrapper.exe
+ターゲット: x86_64-pc-msys
+configure 設定: /msys_scripts/gcc/src/gcc-6.4.0/configure --build=x86_64-pc-msys --prefix=/usr --libexecdir=/usr/lib --enable-bootstrap --enable-shared --enable-shared-libgcc --enable-static --enable-version-specific-runtime-libs --with-arch=x86-64 --with-tune=generic --disable-multilib --enable-__cxa_atexit --with-dwarf2 --enable-languages=c,c++,fortran,lto --enable-graphite --enable-threads=posix --enable-libatomic --enable-libcilkrts --enable-libgomp --enable-libitm --enable-libquadmath --enable-libquadmath-support --disable-libssp --disable-win32-registry --disable-symvers --with-gnu-ld --with-gnu-as --disable-isl-version-check --enable-checking=release --without-libiconv-prefix --without-libintl-prefix --with-system-zlib --enable-linker-build-id --with-default-libstdcxx-abi=gcc4-compatible
+スレッドモデル: posix
+gcc バージョン 6.4.0 (GCC) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-pc-msys/6.4.0/:/usr/lib/gcc/x86_64-pc-msys/6.4.0/:/usr/lib/gcc/x86_64-pc-msys/:/usr/lib/gcc/x86_64-pc-msys/6.4.0/:/usr/lib/gcc/x86_64-pc-msys/:/usr/lib/gcc/x86_64-pc-msys/6.4.0/../../../../x86_64-pc-msys/bin/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-msys/6.4.0/:/usr/lib/gcc/x86_64-pc-msys/6.4.0/../../../../x86_64-pc-msys/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-msys/6.4.0/../../../../x86_64-pc-msys/lib/:/usr/lib/:/usr/lib/w32api/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_af7bc.exe' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-pc-msys/6.4.0/collect2.exe -plugin /usr/lib/gcc/x86_64-pc-msys/6.4.0/msys-lto_plugin.dll -plugin-opt=/usr/lib/gcc/x86_64-pc-msys/6.4.0/lto-wrapper.exe -plugin-opt=-fresolution=/tmp/ccEufiyx.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmsys-2.0 -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id -m i386pep --wrap _Znwm --wrap _Znam --wrap _ZdlPv --wrap _ZdaPv --wrap _ZnwmRKSt9nothrow_t --wrap _ZnamRKSt9nothrow_t --wrap _ZdlPvRKSt9nothrow_t --wrap _ZdaPvRKSt9nothrow_t -Bdynamic --dll-search-prefix=msys- --tsaware -o cmTC_af7bc.exe /usr/lib/../lib/crt0.o /usr/lib/gcc/x86_64-pc-msys/6.4.0/crtbegin.o -L/usr/lib/gcc/x86_64-pc-msys/6.4.0 -L/usr/lib/gcc/x86_64-pc-msys/6.4.0/../../../../x86_64-pc-msys/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-msys/6.4.0/../../../../x86_64-pc-msys/lib -L/usr/lib/w32api CMakeFiles/cmTC_af7bc.dir/CMakeCXXCompilerABI.cpp.o -lgcc_s --undefined=___deregister_frame_info --undefined=___register_frame_info -lgcc -lmsys-2.0 -ladvapi32 -lshell32 -luser32 -lkernel32 -lgcc_s --undefined=___deregister_frame_info --undefined=___register_frame_info -lgcc /usr/lib/../lib/default-manifest.o /usr/lib/gcc/x86_64-pc-msys/6.4.0/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_af7bc.exe' '-mtune=generic' '-march=x86-64'
+make[1]: ディレクトリ '/home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp' から出ます
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make.exe" "cmTC_af7bc/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_af7bc.dir/build.make CMakeFiles/cmTC_af7bc.dir/build]
+  ignore line: [make[1]: ディレクトリ '/home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp' に入ります]
+  ignore line: [Building CXX object CMakeFiles/cmTC_af7bc.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/CC.exe     -o CMakeFiles/cmTC_af7bc.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10.2/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_af7bc]
+  ignore line: [/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_af7bc.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/CC.exe      -v CMakeFiles/cmTC_af7bc.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_af7bc ]
+  ignore line: [組み込み spec を使用しています。]
+  ignore line: [COLLECT_GCC=/usr/bin/CC]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-msys/6.4.0/lto-wrapper.exe]
+  ignore line: [ターゲット: x86_64-pc-msys]
+  ignore line: [configure 設定: /msys_scripts/gcc/src/gcc-6.4.0/configure --build=x86_64-pc-msys --prefix=/usr --libexecdir=/usr/lib --enable-bootstrap --enable-shared --enable-shared-libgcc --enable-static --enable-version-specific-runtime-libs --with-arch=x86-64 --with-tune=generic --disable-multilib --enable-__cxa_atexit --with-dwarf2 --enable-languages=c,c++,fortran,lto --enable-graphite --enable-threads=posix --enable-libatomic --enable-libcilkrts --enable-libgomp --enable-libitm --enable-libquadmath --enable-libquadmath-support --disable-libssp --disable-win32-registry --disable-symvers --with-gnu-ld --with-gnu-as --disable-isl-version-check --enable-checking=release --without-libiconv-prefix --without-libintl-prefix --with-system-zlib --enable-linker-build-id --with-default-libstdcxx-abi=gcc4-compatible]
+  ignore line: [スレッドモデル: posix]
+  ignore line: [gcc バージョン 6.4.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-msys/6.4.0/:/usr/lib/gcc/x86_64-pc-msys/6.4.0/:/usr/lib/gcc/x86_64-pc-msys/:/usr/lib/gcc/x86_64-pc-msys/6.4.0/:/usr/lib/gcc/x86_64-pc-msys/:/usr/lib/gcc/x86_64-pc-msys/6.4.0/../../../../x86_64-pc-msys/bin/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-msys/6.4.0/:/usr/lib/gcc/x86_64-pc-msys/6.4.0/../../../../x86_64-pc-msys/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-msys/6.4.0/../../../../x86_64-pc-msys/lib/:/usr/lib/:/usr/lib/w32api/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_af7bc.exe' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-pc-msys/6.4.0/collect2.exe -plugin /usr/lib/gcc/x86_64-pc-msys/6.4.0/msys-lto_plugin.dll -plugin-opt=/usr/lib/gcc/x86_64-pc-msys/6.4.0/lto-wrapper.exe -plugin-opt=-fresolution=/tmp/ccEufiyx.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmsys-2.0 -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id -m i386pep --wrap _Znwm --wrap _Znam --wrap _ZdlPv --wrap _ZdaPv --wrap _ZnwmRKSt9nothrow_t --wrap _ZnamRKSt9nothrow_t --wrap _ZdlPvRKSt9nothrow_t --wrap _ZdaPvRKSt9nothrow_t -Bdynamic --dll-search-prefix=msys- --tsaware -o cmTC_af7bc.exe /usr/lib/../lib/crt0.o /usr/lib/gcc/x86_64-pc-msys/6.4.0/crtbegin.o -L/usr/lib/gcc/x86_64-pc-msys/6.4.0 -L/usr/lib/gcc/x86_64-pc-msys/6.4.0/../../../../x86_64-pc-msys/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-msys/6.4.0/../../../../x86_64-pc-msys/lib -L/usr/lib/w32api CMakeFiles/cmTC_af7bc.dir/CMakeCXXCompilerABI.cpp.o -lgcc_s --undefined=___deregister_frame_info --undefined=___register_frame_info -lgcc -lmsys-2.0 -ladvapi32 -lshell32 -luser32 -lkernel32 -lgcc_s --undefined=___deregister_frame_info --undefined=___register_frame_info -lgcc /usr/lib/../lib/default-manifest.o /usr/lib/gcc/x86_64-pc-msys/6.4.0/crtend.o]
+    arg [/usr/lib/gcc/x86_64-pc-msys/6.4.0/collect2.exe] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-msys/6.4.0/msys-lto_plugin.dll] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-msys/6.4.0/lto-wrapper.exe] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccEufiyx.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmsys-2.0] ==> ignore
+    arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+    arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [-m] ==> ignore
+    arg [i386pep] ==> ignore
+    arg [--wrap] ==> ignore
+    arg [_Znwm] ==> ignore
+    arg [--wrap] ==> ignore
+    arg [_Znam] ==> ignore
+    arg [--wrap] ==> ignore
+    arg [_ZdlPv] ==> ignore
+    arg [--wrap] ==> ignore
+    arg [_ZdaPv] ==> ignore
+    arg [--wrap] ==> ignore
+    arg [_ZnwmRKSt9nothrow_t] ==> ignore
+    arg [--wrap] ==> ignore
+    arg [_ZnamRKSt9nothrow_t] ==> ignore
+    arg [--wrap] ==> ignore
+    arg [_ZdlPvRKSt9nothrow_t] ==> ignore
+    arg [--wrap] ==> ignore
+    arg [_ZdaPvRKSt9nothrow_t] ==> ignore
+    arg [-Bdynamic] ==> ignore
+    arg [--dll-search-prefix=msys-] ==> ignore
+    arg [--tsaware] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_af7bc.exe] ==> ignore
+    arg [/usr/lib/../lib/crt0.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-msys/6.4.0/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-pc-msys/6.4.0] ==> dir [/usr/lib/gcc/x86_64-pc-msys/6.4.0]
+    arg [-L/usr/lib/gcc/x86_64-pc-msys/6.4.0/../../../../x86_64-pc-msys/lib/../lib] ==> dir [/usr/lib/gcc/x86_64-pc-msys/6.4.0/../../../../x86_64-pc-msys/lib/../lib]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-pc-msys/6.4.0/../../../../x86_64-pc-msys/lib] ==> dir [/usr/lib/gcc/x86_64-pc-msys/6.4.0/../../../../x86_64-pc-msys/lib]
+    arg [-L/usr/lib/w32api] ==> dir [/usr/lib/w32api]
+    arg [CMakeFiles/cmTC_af7bc.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--undefined=___deregister_frame_info] ==> ignore
+    arg [--undefined=___register_frame_info] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lmsys-2.0] ==> lib [msys-2.0]
+    arg [-ladvapi32] ==> lib [advapi32]
+    arg [-lshell32] ==> lib [shell32]
+    arg [-luser32] ==> lib [user32]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--undefined=___deregister_frame_info] ==> ignore
+    arg [--undefined=___register_frame_info] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/../lib/default-manifest.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-msys/6.4.0/crtend.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-pc-msys/6.4.0] ==> [/usr/lib/gcc/x86_64-pc-msys/6.4.0]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-msys/6.4.0/../../../../x86_64-pc-msys/lib/../lib] ==> [/usr/x86_64-pc-msys/lib]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-msys/6.4.0/../../../../x86_64-pc-msys/lib] ==> [/usr/x86_64-pc-msys/lib]
+  collapse library dir [/usr/lib/w32api] ==> [/usr/lib/w32api]
+  implicit libs: [gcc_s;gcc;msys-2.0;advapi32;shell32;user32;kernel32;gcc_s;gcc]
+  implicit dirs: [/usr/lib/gcc/x86_64-pc-msys/6.4.0;/usr/x86_64-pc-msys/lib;/usr/lib;/usr/lib/w32api]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++1z] compiler features compiled with the following output:
+Change Dir: /home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make.exe" "cmTC_d1103/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d1103.dir/build.make CMakeFiles/cmTC_d1103.dir/build
+make[1]: ディレクトリ '/home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp' に入ります
+Building CXX object CMakeFiles/cmTC_d1103.dir/feature_tests.cxx.o
+/usr/bin/CC.exe    -std=c++1z -o CMakeFiles/cmTC_d1103.dir/feature_tests.cxx.o -c /home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_d1103
+/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_d1103.dir/link.txt --verbose=1
+/usr/bin/CC.exe       CMakeFiles/cmTC_d1103.dir/feature_tests.cxx.o  -o cmTC_d1103 
+make[1]: ディレクトリ '/home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp' から出ます
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make.exe" "cmTC_bf0af/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bf0af.dir/build.make CMakeFiles/cmTC_bf0af.dir/build
+make[1]: ディレクトリ '/home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp' に入ります
+Building CXX object CMakeFiles/cmTC_bf0af.dir/feature_tests.cxx.o
+/usr/bin/CC.exe    -std=c++14 -o CMakeFiles/cmTC_bf0af.dir/feature_tests.cxx.o -c /home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_bf0af
+/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_bf0af.dir/link.txt --verbose=1
+/usr/bin/CC.exe       CMakeFiles/cmTC_bf0af.dir/feature_tests.cxx.o  -o cmTC_bf0af 
+make[1]: ディレクトリ '/home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp' から出ます
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make.exe" "cmTC_6ac0e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6ac0e.dir/build.make CMakeFiles/cmTC_6ac0e.dir/build
+make[1]: ディレクトリ '/home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp' に入ります
+Building CXX object CMakeFiles/cmTC_6ac0e.dir/feature_tests.cxx.o
+/usr/bin/CC.exe    -std=c++11 -o CMakeFiles/cmTC_6ac0e.dir/feature_tests.cxx.o -c /home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_6ac0e
+/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_6ac0e.dir/link.txt --verbose=1
+/usr/bin/CC.exe       CMakeFiles/cmTC_6ac0e.dir/feature_tests.cxx.o  -o cmTC_6ac0e 
+make[1]: ディレクトリ '/home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp' から出ます
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make.exe" "cmTC_695e9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_695e9.dir/build.make CMakeFiles/cmTC_695e9.dir/build
+make[1]: ディレクトリ '/home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp' に入ります
+Building CXX object CMakeFiles/cmTC_695e9.dir/feature_tests.cxx.o
+/usr/bin/CC.exe    -std=c++98 -o CMakeFiles/cmTC_695e9.dir/feature_tests.cxx.o -c /home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_695e9
+/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_695e9.dir/link.txt --verbose=1
+/usr/bin/CC.exe       CMakeFiles/cmTC_695e9.dir/feature_tests.cxx.o  -o cmTC_695e9 
+make[1]: ディレクトリ '/home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp' から出ます
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make.exe" "cmTC_3ca91/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3ca91.dir/build.make CMakeFiles/cmTC_3ca91.dir/build
+make[1]: ディレクトリ '/home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_3ca91.dir/CheckIncludeFile.c.obj
+/usr/bin/cc.exe    -o CMakeFiles/cmTC_3ca91.dir/CheckIncludeFile.c.obj   -c /home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_3ca91
+/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_3ca91.dir/link.txt --verbose=1
+/usr/bin/cc.exe      CMakeFiles/cmTC_3ca91.dir/CheckIncludeFile.c.obj  -o cmTC_3ca91 
+make[1]: ディレクトリ '/home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if the pthread_create exist passed with the following output:
+Change Dir: /home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make.exe" "cmTC_6963f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6963f.dir/build.make CMakeFiles/cmTC_6963f.dir/build
+make[1]: ディレクトリ '/home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_6963f.dir/CheckSymbolExists.c.obj
+/usr/bin/cc.exe    -o CMakeFiles/cmTC_6963f.dir/CheckSymbolExists.c.obj   -c /home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_6963f
+/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_6963f.dir/link.txt --verbose=1
+/usr/bin/cc.exe      CMakeFiles/cmTC_6963f.dir/CheckSymbolExists.c.obj  -o cmTC_6963f 
+make[1]: ディレクトリ '/home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp' から出ます
+
+File /home/herb/bin/learnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+The system is: Windows - 10.0.16299 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/msys64/usr/bin/gcc.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+
+The C compiler identification is GNU, found in "C:/msys64/home/herb/bin/LearnGL/MyOpenGL_temp/build/CMakeFiles/3.10.2/CompilerIdC/a.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: C:/msys64/usr/bin/g++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+
+The CXX compiler identification is GNU, found in "C:/msys64/home/herb/bin/LearnGL/MyOpenGL_temp/build/CMakeFiles/3.10.2/CompilerIdCXX/a.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/msys64/home/herb/bin/LearnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/msys64/mingw64/bin/mingw32-make.exe" "cmTC_a5e05/fast"
+C:/msys64/mingw64/bin/mingw32-make.exe -f CMakeFiles\cmTC_a5e05.dir\build.make CMakeFiles/cmTC_a5e05.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/msys64/home/herb/bin/LearnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a5e05.dir/testCCompiler.c.obj
+C:\msys64\usr\bin\gcc.exe    -o CMakeFiles\cmTC_a5e05.dir\testCCompiler.c.obj   -c C:\msys64\home\herb\bin\LearnGL\MyOpenGL_temp\build\CMakeFiles\CMakeTmp\testCCompiler.c
+Linking C executable cmTC_a5e05.exe
+C:\msys64\mingw64\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_a5e05.dir\link.txt --verbose=1
+C:\msys64\mingw64\bin\cmake.exe -E remove -f CMakeFiles\cmTC_a5e05.dir/objects.a
+C:\msys64\usr\bin\ar.exe cr CMakeFiles\cmTC_a5e05.dir/objects.a @CMakeFiles\cmTC_a5e05.dir\objects1.rsp
+C:\msys64\usr\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_a5e05.dir/objects.a -Wl,--no-whole-archive  -o cmTC_a5e05.exe -Wl,--major-image-version,0,--minor-image-version,0 
+mingw32-make.exe[1]: Leaving directory 'C:/msys64/home/herb/bin/LearnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/msys64/home/herb/bin/LearnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/msys64/mingw64/bin/mingw32-make.exe" "cmTC_29960/fast"
+C:/msys64/mingw64/bin/mingw32-make.exe -f CMakeFiles\cmTC_29960.dir\build.make CMakeFiles/cmTC_29960.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/msys64/home/herb/bin/LearnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_29960.dir/CMakeCCompilerABI.c.obj
+C:\msys64\usr\bin\gcc.exe    -o CMakeFiles\cmTC_29960.dir\CMakeCCompilerABI.c.obj   -c C:\msys64\mingw64\share\cmake-3.10\Modules\CMakeCCompilerABI.c
+Linking C executable cmTC_29960.exe
+C:\msys64\mingw64\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_29960.dir\link.txt --verbose=1
+C:\msys64\mingw64\bin\cmake.exe -E remove -f CMakeFiles\cmTC_29960.dir/objects.a
+C:\msys64\usr\bin\ar.exe cr CMakeFiles\cmTC_29960.dir/objects.a @CMakeFiles\cmTC_29960.dir\objects1.rsp
+C:\msys64\usr\bin\gcc.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_29960.dir/objects.a -Wl,--no-whole-archive  -o cmTC_29960.exe -Wl,--major-image-version,0,--minor-image-version,0 
+邨・∩霎ｼ縺ｿ spec 繧剃ｽｿ逕ｨ縺励※縺・∪縺吶・COLLECT_GCC=/usr/bin/gcc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-msys/6.4.0/lto-wrapper.exe
+繧ｿ繝ｼ繧ｲ繝・ヨ: x86_64-pc-msys
+configure 險ｭ螳・ /msys_scripts/gcc/src/gcc-6.4.0/configure --build=x86_64-pc-msys --prefix=/usr --libexecdir=/usr/lib --enable-bootstrap --enable-shared --enable-shared-libgcc --enable-static --enable-version-specific-runtime-libs --with-arch=x86-64 --with-tune=generic --disable-multilib --enable-__cxa_atexit --with-dwarf2 --enable-languages=c,c++,fortran,lto --enable-graphite --enable-threads=posix --enable-libatomic --enable-libcilkrts --enable-libgomp --enable-libitm --enable-libquadmath --enable-libquadmath-support --disable-libssp --disable-win32-registry --disable-symvers --with-gnu-ld --with-gnu-as --disable-isl-version-check --enable-checking=release --without-libiconv-prefix --without-libintl-prefix --with-system-zlib --enable-linker-build-id --with-default-libstdcxx-abi=gcc4-compatible
+繧ｹ繝ｬ繝・ラ繝｢繝・Ν: posix
+gcc 繝舌・繧ｸ繝ｧ繝ｳ 6.4.0 (GCC) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-pc-msys/6.4.0/:/usr/lib/gcc/x86_64-pc-msys/6.4.0/:/usr/lib/gcc/x86_64-pc-msys/:/usr/lib/gcc/x86_64-pc-msys/6.4.0/:/usr/lib/gcc/x86_64-pc-msys/:/usr/lib/gcc/x86_64-pc-msys/6.4.0/../../../../x86_64-pc-msys/bin/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-msys/6.4.0/:/usr/lib/gcc/x86_64-pc-msys/6.4.0/../../../../x86_64-pc-msys/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-msys/6.4.0/../../../../x86_64-pc-msys/lib/:/usr/lib/:/usr/lib/w32api/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_29960.exe' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-pc-msys/6.4.0/collect2.exe -plugin /usr/lib/gcc/x86_64-pc-msys/6.4.0/msys-lto_plugin.dll -plugin-opt=/usr/lib/gcc/x86_64-pc-msys/6.4.0/lto-wrapper.exe -plugin-opt=-fresolution=/tmp/ccqQjPau.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmsys-2.0 -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id -m i386pep --wrap _Znwm --wrap _Znam --wrap _ZdlPv --wrap _ZdaPv --wrap _ZnwmRKSt9nothrow_t --wrap _ZnamRKSt9nothrow_t --wrap _ZdlPvRKSt9nothrow_t --wrap _ZdaPvRKSt9nothrow_t -Bdynamic --dll-search-prefix=msys- --tsaware -o cmTC_29960.exe /usr/lib/../lib/crt0.o /usr/lib/gcc/x86_64-pc-msys/6.4.0/crtbegin.o -L/usr/lib/gcc/x86_64-pc-msys/6.4.0 -L/usr/lib/gcc/x86_64-pc-msys/6.4.0/../../../../x86_64-pc-msys/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-msys/6.4.0/../../../../x86_64-pc-msys/lib -L/usr/lib/w32api --whole-archive CMakeFiles\cmTC_29960.dir/objects.a --no-whole-archive --major-image-version 0 --minor-image-version 0 -lgcc_s --undefined=___deregister_frame_info --undefined=___register_frame_info -lgcc -lmsys-2.0 -ladvapi32 -lshell32 -luser32 -lkernel32 -lgcc_s --undefined=___deregister_frame_info --undefined=___register_frame_info -lgcc /usr/lib/../lib/default-manifest.o /usr/lib/gcc/x86_64-pc-msys/6.4.0/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_29960.exe' '-mtune=generic' '-march=x86-64'
+mingw32-make.exe[1]: Leaving directory 'C:/msys64/home/herb/bin/LearnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: C:/msys64/home/herb/bin/LearnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"C:/msys64/mingw64/bin/mingw32-make.exe" "cmTC_29960/fast"]
+  ignore line: [C:/msys64/mingw64/bin/mingw32-make.exe -f CMakeFiles\cmTC_29960.dir\build.make CMakeFiles/cmTC_29960.dir/build]
+  ignore line: [mingw32-make.exe[1]: Entering directory 'C:/msys64/home/herb/bin/LearnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_29960.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [C:\msys64\usr\bin\gcc.exe    -o CMakeFiles\cmTC_29960.dir\CMakeCCompilerABI.c.obj   -c C:\msys64\mingw64\share\cmake-3.10\Modules\CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_29960.exe]
+  ignore line: [C:\msys64\mingw64\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_29960.dir\link.txt --verbose=1]
+  ignore line: [C:\msys64\mingw64\bin\cmake.exe -E remove -f CMakeFiles\cmTC_29960.dir/objects.a]
+  ignore line: [C:\msys64\usr\bin\ar.exe cr CMakeFiles\cmTC_29960.dir/objects.a @CMakeFiles\cmTC_29960.dir\objects1.rsp]
+  ignore line: [C:\msys64\usr\bin\gcc.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_29960.dir/objects.a -Wl,--no-whole-archive  -o cmTC_29960.exe -Wl,--major-image-version,0,--minor-image-version,0 ]
+  ignore line: [邨・∩霎ｼ縺ｿ spec 繧剃ｽｿ逕ｨ縺励※縺・∪縺吶・COLLECT_GCC=/usr/bin/gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-msys/6.4.0/lto-wrapper.exe]
+  ignore line: [繧ｿ繝ｼ繧ｲ繝・ヨ: x86_64-pc-msys]
+  ignore line: [configure 險ｭ螳・ /msys_scripts/gcc/src/gcc-6.4.0/configure --build=x86_64-pc-msys --prefix=/usr --libexecdir=/usr/lib --enable-bootstrap --enable-shared --enable-shared-libgcc --enable-static --enable-version-specific-runtime-libs --with-arch=x86-64 --with-tune=generic --disable-multilib --enable-__cxa_atexit --with-dwarf2 --enable-languages=c,c++,fortran,lto --enable-graphite --enable-threads=posix --enable-libatomic --enable-libcilkrts --enable-libgomp --enable-libitm --enable-libquadmath --enable-libquadmath-support --disable-libssp --disable-win32-registry --disable-symvers --with-gnu-ld --with-gnu-as --disable-isl-version-check --enable-checking=release --without-libiconv-prefix --without-libintl-prefix --with-system-zlib --enable-linker-build-id --with-default-libstdcxx-abi=gcc4-compatible]
+  ignore line: [繧ｹ繝ｬ繝・ラ繝｢繝・Ν: posix]
+  ignore line: [gcc 繝舌・繧ｸ繝ｧ繝ｳ 6.4.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-msys/6.4.0/:/usr/lib/gcc/x86_64-pc-msys/6.4.0/:/usr/lib/gcc/x86_64-pc-msys/:/usr/lib/gcc/x86_64-pc-msys/6.4.0/:/usr/lib/gcc/x86_64-pc-msys/:/usr/lib/gcc/x86_64-pc-msys/6.4.0/../../../../x86_64-pc-msys/bin/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-msys/6.4.0/:/usr/lib/gcc/x86_64-pc-msys/6.4.0/../../../../x86_64-pc-msys/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-msys/6.4.0/../../../../x86_64-pc-msys/lib/:/usr/lib/:/usr/lib/w32api/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_29960.exe' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-pc-msys/6.4.0/collect2.exe -plugin /usr/lib/gcc/x86_64-pc-msys/6.4.0/msys-lto_plugin.dll -plugin-opt=/usr/lib/gcc/x86_64-pc-msys/6.4.0/lto-wrapper.exe -plugin-opt=-fresolution=/tmp/ccqQjPau.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmsys-2.0 -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id -m i386pep --wrap _Znwm --wrap _Znam --wrap _ZdlPv --wrap _ZdaPv --wrap _ZnwmRKSt9nothrow_t --wrap _ZnamRKSt9nothrow_t --wrap _ZdlPvRKSt9nothrow_t --wrap _ZdaPvRKSt9nothrow_t -Bdynamic --dll-search-prefix=msys- --tsaware -o cmTC_29960.exe /usr/lib/../lib/crt0.o /usr/lib/gcc/x86_64-pc-msys/6.4.0/crtbegin.o -L/usr/lib/gcc/x86_64-pc-msys/6.4.0 -L/usr/lib/gcc/x86_64-pc-msys/6.4.0/../../../../x86_64-pc-msys/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-msys/6.4.0/../../../../x86_64-pc-msys/lib -L/usr/lib/w32api --whole-archive CMakeFiles\cmTC_29960.dir/objects.a --no-whole-archive --major-image-version 0 --minor-image-version 0 -lgcc_s --undefined=___deregister_frame_info --undefined=___register_frame_info -lgcc -lmsys-2.0 -ladvapi32 -lshell32 -luser32 -lkernel32 -lgcc_s --undefined=___deregister_frame_info --undefined=___register_frame_info -lgcc /usr/lib/../lib/default-manifest.o /usr/lib/gcc/x86_64-pc-msys/6.4.0/crtend.o]
+    arg [/usr/lib/gcc/x86_64-pc-msys/6.4.0/collect2.exe] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-msys/6.4.0/msys-lto_plugin.dll] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-msys/6.4.0/lto-wrapper.exe] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccqQjPau.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmsys-2.0] ==> ignore
+    arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+    arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [-m] ==> ignore
+    arg [i386pep] ==> ignore
+    arg [--wrap] ==> ignore
+    arg [_Znwm] ==> ignore
+    arg [--wrap] ==> ignore
+    arg [_Znam] ==> ignore
+    arg [--wrap] ==> ignore
+    arg [_ZdlPv] ==> ignore
+    arg [--wrap] ==> ignore
+    arg [_ZdaPv] ==> ignore
+    arg [--wrap] ==> ignore
+    arg [_ZnwmRKSt9nothrow_t] ==> ignore
+    arg [--wrap] ==> ignore
+    arg [_ZnamRKSt9nothrow_t] ==> ignore
+    arg [--wrap] ==> ignore
+    arg [_ZdlPvRKSt9nothrow_t] ==> ignore
+    arg [--wrap] ==> ignore
+    arg [_ZdaPvRKSt9nothrow_t] ==> ignore
+    arg [-Bdynamic] ==> ignore
+    arg [--dll-search-prefix=msys-] ==> ignore
+    arg [--tsaware] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_29960.exe] ==> ignore
+    arg [/usr/lib/../lib/crt0.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-msys/6.4.0/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-pc-msys/6.4.0] ==> dir [/usr/lib/gcc/x86_64-pc-msys/6.4.0]
+    arg [-L/usr/lib/gcc/x86_64-pc-msys/6.4.0/../../../../x86_64-pc-msys/lib/../lib] ==> dir [/usr/lib/gcc/x86_64-pc-msys/6.4.0/../../../../x86_64-pc-msys/lib/../lib]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-pc-msys/6.4.0/../../../../x86_64-pc-msys/lib] ==> dir [/usr/lib/gcc/x86_64-pc-msys/6.4.0/../../../../x86_64-pc-msys/lib]
+    arg [-L/usr/lib/w32api] ==> dir [/usr/lib/w32api]
+    arg [--whole-archive] ==> ignore
+    arg [CMakeFiles\cmTC_29960.dir/objects.a] ==> ignore
+    arg [--no-whole-archive] ==> ignore
+    arg [--major-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [--minor-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--undefined=___deregister_frame_info] ==> ignore
+    arg [--undefined=___register_frame_info] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lmsys-2.0] ==> lib [msys-2.0]
+    arg [-ladvapi32] ==> lib [advapi32]
+    arg [-lshell32] ==> lib [shell32]
+    arg [-luser32] ==> lib [user32]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--undefined=___deregister_frame_info] ==> ignore
+    arg [--undefined=___register_frame_info] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/../lib/default-manifest.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-msys/6.4.0/crtend.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-pc-msys/6.4.0] ==> [/usr/lib/gcc/x86_64-pc-msys/6.4.0]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-msys/6.4.0/../../../../x86_64-pc-msys/lib/../lib] ==> [/usr/x86_64-pc-msys/lib]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-msys/6.4.0/../../../../x86_64-pc-msys/lib] ==> [/usr/x86_64-pc-msys/lib]
+  collapse library dir [/usr/lib/w32api] ==> [/usr/lib/w32api]
+  implicit libs: [gcc_s;gcc;msys-2.0;advapi32;shell32;user32;kernel32;gcc_s;gcc]
+  implicit dirs: [/usr/lib/gcc/x86_64-pc-msys/6.4.0;/usr/x86_64-pc-msys/lib;/usr/lib;/usr/lib/w32api]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: C:/msys64/home/herb/bin/LearnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/msys64/mingw64/bin/mingw32-make.exe" "cmTC_287c3/fast"
+C:/msys64/mingw64/bin/mingw32-make.exe -f CMakeFiles\cmTC_287c3.dir\build.make CMakeFiles/cmTC_287c3.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/msys64/home/herb/bin/LearnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_287c3.dir/feature_tests.c.obj
+C:\msys64\usr\bin\gcc.exe   -std=c11 -o CMakeFiles\cmTC_287c3.dir\feature_tests.c.obj   -c C:\msys64\home\herb\bin\LearnGL\MyOpenGL_temp\build\CMakeFiles\feature_tests.c
+Linking C executable cmTC_287c3.exe
+C:\msys64\mingw64\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_287c3.dir\link.txt --verbose=1
+C:\msys64\mingw64\bin\cmake.exe -E remove -f CMakeFiles\cmTC_287c3.dir/objects.a
+C:\msys64\usr\bin\ar.exe cr CMakeFiles\cmTC_287c3.dir/objects.a @CMakeFiles\cmTC_287c3.dir\objects1.rsp
+C:\msys64\usr\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_287c3.dir/objects.a -Wl,--no-whole-archive  -o cmTC_287c3.exe -Wl,--major-image-version,0,--minor-image-version,0 
+mingw32-make.exe[1]: Leaving directory 'C:/msys64/home/herb/bin/LearnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: C:/msys64/home/herb/bin/LearnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/msys64/mingw64/bin/mingw32-make.exe" "cmTC_1f996/fast"
+C:/msys64/mingw64/bin/mingw32-make.exe -f CMakeFiles\cmTC_1f996.dir\build.make CMakeFiles/cmTC_1f996.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/msys64/home/herb/bin/LearnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1f996.dir/feature_tests.c.obj
+C:\msys64\usr\bin\gcc.exe   -std=c99 -o CMakeFiles\cmTC_1f996.dir\feature_tests.c.obj   -c C:\msys64\home\herb\bin\LearnGL\MyOpenGL_temp\build\CMakeFiles\feature_tests.c
+Linking C executable cmTC_1f996.exe
+C:\msys64\mingw64\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_1f996.dir\link.txt --verbose=1
+C:\msys64\mingw64\bin\cmake.exe -E remove -f CMakeFiles\cmTC_1f996.dir/objects.a
+C:\msys64\usr\bin\ar.exe cr CMakeFiles\cmTC_1f996.dir/objects.a @CMakeFiles\cmTC_1f996.dir\objects1.rsp
+C:\msys64\usr\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_1f996.dir/objects.a -Wl,--no-whole-archive  -o cmTC_1f996.exe -Wl,--major-image-version,0,--minor-image-version,0 
+mingw32-make.exe[1]: Leaving directory 'C:/msys64/home/herb/bin/LearnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: C:/msys64/home/herb/bin/LearnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/msys64/mingw64/bin/mingw32-make.exe" "cmTC_0a020/fast"
+C:/msys64/mingw64/bin/mingw32-make.exe -f CMakeFiles\cmTC_0a020.dir\build.make CMakeFiles/cmTC_0a020.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/msys64/home/herb/bin/LearnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0a020.dir/feature_tests.c.obj
+C:\msys64\usr\bin\gcc.exe   -std=c90 -o CMakeFiles\cmTC_0a020.dir\feature_tests.c.obj   -c C:\msys64\home\herb\bin\LearnGL\MyOpenGL_temp\build\CMakeFiles\feature_tests.c
+Linking C executable cmTC_0a020.exe
+C:\msys64\mingw64\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_0a020.dir\link.txt --verbose=1
+C:\msys64\mingw64\bin\cmake.exe -E remove -f CMakeFiles\cmTC_0a020.dir/objects.a
+C:\msys64\usr\bin\ar.exe cr CMakeFiles\cmTC_0a020.dir/objects.a @CMakeFiles\cmTC_0a020.dir\objects1.rsp
+C:\msys64\usr\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_0a020.dir/objects.a -Wl,--no-whole-archive  -o cmTC_0a020.exe -Wl,--major-image-version,0,--minor-image-version,0 
+mingw32-make.exe[1]: Leaving directory 'C:/msys64/home/herb/bin/LearnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: C:/msys64/home/herb/bin/LearnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/msys64/mingw64/bin/mingw32-make.exe" "cmTC_4d1ed/fast"
+C:/msys64/mingw64/bin/mingw32-make.exe -f CMakeFiles\cmTC_4d1ed.dir\build.make CMakeFiles/cmTC_4d1ed.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/msys64/home/herb/bin/LearnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4d1ed.dir/testCXXCompiler.cxx.o
+C:\msys64\usr\bin\g++.exe     -o CMakeFiles\cmTC_4d1ed.dir\testCXXCompiler.cxx.o -c C:\msys64\home\herb\bin\LearnGL\MyOpenGL_temp\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+Linking CXX executable cmTC_4d1ed.exe
+C:\msys64\mingw64\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_4d1ed.dir\link.txt --verbose=1
+C:\msys64\mingw64\bin\cmake.exe -E remove -f CMakeFiles\cmTC_4d1ed.dir/objects.a
+C:\msys64\usr\bin\ar.exe cr CMakeFiles\cmTC_4d1ed.dir/objects.a @CMakeFiles\cmTC_4d1ed.dir\objects1.rsp
+C:\msys64\usr\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_4d1ed.dir/objects.a -Wl,--no-whole-archive  -o cmTC_4d1ed.exe -Wl,--major-image-version,0,--minor-image-version,0 
+mingw32-make.exe[1]: Leaving directory 'C:/msys64/home/herb/bin/LearnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/msys64/home/herb/bin/LearnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/msys64/mingw64/bin/mingw32-make.exe" "cmTC_ced66/fast"
+C:/msys64/mingw64/bin/mingw32-make.exe -f CMakeFiles\cmTC_ced66.dir\build.make CMakeFiles/cmTC_ced66.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/msys64/home/herb/bin/LearnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ced66.dir/CMakeCXXCompilerABI.cpp.o
+C:\msys64\usr\bin\g++.exe     -o CMakeFiles\cmTC_ced66.dir\CMakeCXXCompilerABI.cpp.o -c C:\msys64\mingw64\share\cmake-3.10\Modules\CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_ced66.exe
+C:\msys64\mingw64\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_ced66.dir\link.txt --verbose=1
+C:\msys64\mingw64\bin\cmake.exe -E remove -f CMakeFiles\cmTC_ced66.dir/objects.a
+C:\msys64\usr\bin\ar.exe cr CMakeFiles\cmTC_ced66.dir/objects.a @CMakeFiles\cmTC_ced66.dir\objects1.rsp
+C:\msys64\usr\bin\g++.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_ced66.dir/objects.a -Wl,--no-whole-archive  -o cmTC_ced66.exe -Wl,--major-image-version,0,--minor-image-version,0 
+邨・∩霎ｼ縺ｿ spec 繧剃ｽｿ逕ｨ縺励※縺・∪縺吶・COLLECT_GCC=/usr/bin/g++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-msys/6.4.0/lto-wrapper.exe
+繧ｿ繝ｼ繧ｲ繝・ヨ: x86_64-pc-msys
+configure 險ｭ螳・ /msys_scripts/gcc/src/gcc-6.4.0/configure --build=x86_64-pc-msys --prefix=/usr --libexecdir=/usr/lib --enable-bootstrap --enable-shared --enable-shared-libgcc --enable-static --enable-version-specific-runtime-libs --with-arch=x86-64 --with-tune=generic --disable-multilib --enable-__cxa_atexit --with-dwarf2 --enable-languages=c,c++,fortran,lto --enable-graphite --enable-threads=posix --enable-libatomic --enable-libcilkrts --enable-libgomp --enable-libitm --enable-libquadmath --enable-libquadmath-support --disable-libssp --disable-win32-registry --disable-symvers --with-gnu-ld --with-gnu-as --disable-isl-version-check --enable-checking=release --without-libiconv-prefix --without-libintl-prefix --with-system-zlib --enable-linker-build-id --with-default-libstdcxx-abi=gcc4-compatible
+繧ｹ繝ｬ繝・ラ繝｢繝・Ν: posix
+gcc 繝舌・繧ｸ繝ｧ繝ｳ 6.4.0 (GCC) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-pc-msys/6.4.0/:/usr/lib/gcc/x86_64-pc-msys/6.4.0/:/usr/lib/gcc/x86_64-pc-msys/:/usr/lib/gcc/x86_64-pc-msys/6.4.0/:/usr/lib/gcc/x86_64-pc-msys/:/usr/lib/gcc/x86_64-pc-msys/6.4.0/../../../../x86_64-pc-msys/bin/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-msys/6.4.0/:/usr/lib/gcc/x86_64-pc-msys/6.4.0/../../../../x86_64-pc-msys/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-msys/6.4.0/../../../../x86_64-pc-msys/lib/:/usr/lib/:/usr/lib/w32api/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ced66.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-pc-msys/6.4.0/collect2.exe -plugin /usr/lib/gcc/x86_64-pc-msys/6.4.0/msys-lto_plugin.dll -plugin-opt=/usr/lib/gcc/x86_64-pc-msys/6.4.0/lto-wrapper.exe -plugin-opt=-fresolution=/tmp/ccb6m63n.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmsys-2.0 -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id -m i386pep --wrap _Znwm --wrap _Znam --wrap _ZdlPv --wrap _ZdaPv --wrap _ZnwmRKSt9nothrow_t --wrap _ZnamRKSt9nothrow_t --wrap _ZdlPvRKSt9nothrow_t --wrap _ZdaPvRKSt9nothrow_t -Bdynamic --dll-search-prefix=msys- --tsaware -o cmTC_ced66.exe /usr/lib/../lib/crt0.o /usr/lib/gcc/x86_64-pc-msys/6.4.0/crtbegin.o -L/usr/lib/gcc/x86_64-pc-msys/6.4.0 -L/usr/lib/gcc/x86_64-pc-msys/6.4.0/../../../../x86_64-pc-msys/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-msys/6.4.0/../../../../x86_64-pc-msys/lib -L/usr/lib/w32api --whole-archive CMakeFiles\cmTC_ced66.dir/objects.a --no-whole-archive --major-image-version 0 --minor-image-version 0 -lstdc++ -lgcc_s --undefined=___deregister_frame_info --undefined=___register_frame_info -lgcc -lmsys-2.0 -ladvapi32 -lshell32 -luser32 -lkernel32 -lgcc_s --undefined=___deregister_frame_info --undefined=___register_frame_info -lgcc /usr/lib/../lib/default-manifest.o /usr/lib/gcc/x86_64-pc-msys/6.4.0/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ced66.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+mingw32-make.exe[1]: Leaving directory 'C:/msys64/home/herb/bin/LearnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: C:/msys64/home/herb/bin/LearnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"C:/msys64/mingw64/bin/mingw32-make.exe" "cmTC_ced66/fast"]
+  ignore line: [C:/msys64/mingw64/bin/mingw32-make.exe -f CMakeFiles\cmTC_ced66.dir\build.make CMakeFiles/cmTC_ced66.dir/build]
+  ignore line: [mingw32-make.exe[1]: Entering directory 'C:/msys64/home/herb/bin/LearnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_ced66.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [C:\msys64\usr\bin\g++.exe     -o CMakeFiles\cmTC_ced66.dir\CMakeCXXCompilerABI.cpp.o -c C:\msys64\mingw64\share\cmake-3.10\Modules\CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_ced66.exe]
+  ignore line: [C:\msys64\mingw64\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_ced66.dir\link.txt --verbose=1]
+  ignore line: [C:\msys64\mingw64\bin\cmake.exe -E remove -f CMakeFiles\cmTC_ced66.dir/objects.a]
+  ignore line: [C:\msys64\usr\bin\ar.exe cr CMakeFiles\cmTC_ced66.dir/objects.a @CMakeFiles\cmTC_ced66.dir\objects1.rsp]
+  ignore line: [C:\msys64\usr\bin\g++.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_ced66.dir/objects.a -Wl,--no-whole-archive  -o cmTC_ced66.exe -Wl,--major-image-version,0,--minor-image-version,0 ]
+  ignore line: [邨・∩霎ｼ縺ｿ spec 繧剃ｽｿ逕ｨ縺励※縺・∪縺吶・COLLECT_GCC=/usr/bin/g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-msys/6.4.0/lto-wrapper.exe]
+  ignore line: [繧ｿ繝ｼ繧ｲ繝・ヨ: x86_64-pc-msys]
+  ignore line: [configure 險ｭ螳・ /msys_scripts/gcc/src/gcc-6.4.0/configure --build=x86_64-pc-msys --prefix=/usr --libexecdir=/usr/lib --enable-bootstrap --enable-shared --enable-shared-libgcc --enable-static --enable-version-specific-runtime-libs --with-arch=x86-64 --with-tune=generic --disable-multilib --enable-__cxa_atexit --with-dwarf2 --enable-languages=c,c++,fortran,lto --enable-graphite --enable-threads=posix --enable-libatomic --enable-libcilkrts --enable-libgomp --enable-libitm --enable-libquadmath --enable-libquadmath-support --disable-libssp --disable-win32-registry --disable-symvers --with-gnu-ld --with-gnu-as --disable-isl-version-check --enable-checking=release --without-libiconv-prefix --without-libintl-prefix --with-system-zlib --enable-linker-build-id --with-default-libstdcxx-abi=gcc4-compatible]
+  ignore line: [繧ｹ繝ｬ繝・ラ繝｢繝・Ν: posix]
+  ignore line: [gcc 繝舌・繧ｸ繝ｧ繝ｳ 6.4.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-msys/6.4.0/:/usr/lib/gcc/x86_64-pc-msys/6.4.0/:/usr/lib/gcc/x86_64-pc-msys/:/usr/lib/gcc/x86_64-pc-msys/6.4.0/:/usr/lib/gcc/x86_64-pc-msys/:/usr/lib/gcc/x86_64-pc-msys/6.4.0/../../../../x86_64-pc-msys/bin/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-msys/6.4.0/:/usr/lib/gcc/x86_64-pc-msys/6.4.0/../../../../x86_64-pc-msys/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-msys/6.4.0/../../../../x86_64-pc-msys/lib/:/usr/lib/:/usr/lib/w32api/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ced66.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-pc-msys/6.4.0/collect2.exe -plugin /usr/lib/gcc/x86_64-pc-msys/6.4.0/msys-lto_plugin.dll -plugin-opt=/usr/lib/gcc/x86_64-pc-msys/6.4.0/lto-wrapper.exe -plugin-opt=-fresolution=/tmp/ccb6m63n.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmsys-2.0 -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id -m i386pep --wrap _Znwm --wrap _Znam --wrap _ZdlPv --wrap _ZdaPv --wrap _ZnwmRKSt9nothrow_t --wrap _ZnamRKSt9nothrow_t --wrap _ZdlPvRKSt9nothrow_t --wrap _ZdaPvRKSt9nothrow_t -Bdynamic --dll-search-prefix=msys- --tsaware -o cmTC_ced66.exe /usr/lib/../lib/crt0.o /usr/lib/gcc/x86_64-pc-msys/6.4.0/crtbegin.o -L/usr/lib/gcc/x86_64-pc-msys/6.4.0 -L/usr/lib/gcc/x86_64-pc-msys/6.4.0/../../../../x86_64-pc-msys/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-msys/6.4.0/../../../../x86_64-pc-msys/lib -L/usr/lib/w32api --whole-archive CMakeFiles\cmTC_ced66.dir/objects.a --no-whole-archive --major-image-version 0 --minor-image-version 0 -lstdc++ -lgcc_s --undefined=___deregister_frame_info --undefined=___register_frame_info -lgcc -lmsys-2.0 -ladvapi32 -lshell32 -luser32 -lkernel32 -lgcc_s --undefined=___deregister_frame_info --undefined=___register_frame_info -lgcc /usr/lib/../lib/default-manifest.o /usr/lib/gcc/x86_64-pc-msys/6.4.0/crtend.o]
+    arg [/usr/lib/gcc/x86_64-pc-msys/6.4.0/collect2.exe] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-msys/6.4.0/msys-lto_plugin.dll] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-msys/6.4.0/lto-wrapper.exe] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccb6m63n.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmsys-2.0] ==> ignore
+    arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+    arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [-m] ==> ignore
+    arg [i386pep] ==> ignore
+    arg [--wrap] ==> ignore
+    arg [_Znwm] ==> ignore
+    arg [--wrap] ==> ignore
+    arg [_Znam] ==> ignore
+    arg [--wrap] ==> ignore
+    arg [_ZdlPv] ==> ignore
+    arg [--wrap] ==> ignore
+    arg [_ZdaPv] ==> ignore
+    arg [--wrap] ==> ignore
+    arg [_ZnwmRKSt9nothrow_t] ==> ignore
+    arg [--wrap] ==> ignore
+    arg [_ZnamRKSt9nothrow_t] ==> ignore
+    arg [--wrap] ==> ignore
+    arg [_ZdlPvRKSt9nothrow_t] ==> ignore
+    arg [--wrap] ==> ignore
+    arg [_ZdaPvRKSt9nothrow_t] ==> ignore
+    arg [-Bdynamic] ==> ignore
+    arg [--dll-search-prefix=msys-] ==> ignore
+    arg [--tsaware] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_ced66.exe] ==> ignore
+    arg [/usr/lib/../lib/crt0.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-msys/6.4.0/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-pc-msys/6.4.0] ==> dir [/usr/lib/gcc/x86_64-pc-msys/6.4.0]
+    arg [-L/usr/lib/gcc/x86_64-pc-msys/6.4.0/../../../../x86_64-pc-msys/lib/../lib] ==> dir [/usr/lib/gcc/x86_64-pc-msys/6.4.0/../../../../x86_64-pc-msys/lib/../lib]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-pc-msys/6.4.0/../../../../x86_64-pc-msys/lib] ==> dir [/usr/lib/gcc/x86_64-pc-msys/6.4.0/../../../../x86_64-pc-msys/lib]
+    arg [-L/usr/lib/w32api] ==> dir [/usr/lib/w32api]
+    arg [--whole-archive] ==> ignore
+    arg [CMakeFiles\cmTC_ced66.dir/objects.a] ==> ignore
+    arg [--no-whole-archive] ==> ignore
+    arg [--major-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [--minor-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--undefined=___deregister_frame_info] ==> ignore
+    arg [--undefined=___register_frame_info] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lmsys-2.0] ==> lib [msys-2.0]
+    arg [-ladvapi32] ==> lib [advapi32]
+    arg [-lshell32] ==> lib [shell32]
+    arg [-luser32] ==> lib [user32]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--undefined=___deregister_frame_info] ==> ignore
+    arg [--undefined=___register_frame_info] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/../lib/default-manifest.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-msys/6.4.0/crtend.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-pc-msys/6.4.0] ==> [/usr/lib/gcc/x86_64-pc-msys/6.4.0]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-msys/6.4.0/../../../../x86_64-pc-msys/lib/../lib] ==> [/usr/x86_64-pc-msys/lib]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-msys/6.4.0/../../../../x86_64-pc-msys/lib] ==> [/usr/x86_64-pc-msys/lib]
+  collapse library dir [/usr/lib/w32api] ==> [/usr/lib/w32api]
+  implicit libs: [stdc++;gcc_s;gcc;msys-2.0;advapi32;shell32;user32;kernel32;gcc_s;gcc]
+  implicit dirs: [/usr/lib/gcc/x86_64-pc-msys/6.4.0;/usr/x86_64-pc-msys/lib;/usr/lib;/usr/lib/w32api]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++1z] compiler features compiled with the following output:
+Change Dir: C:/msys64/home/herb/bin/LearnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/msys64/mingw64/bin/mingw32-make.exe" "cmTC_cafc1/fast"
+C:/msys64/mingw64/bin/mingw32-make.exe -f CMakeFiles\cmTC_cafc1.dir\build.make CMakeFiles/cmTC_cafc1.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/msys64/home/herb/bin/LearnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_cafc1.dir/feature_tests.cxx.o
+C:\msys64\usr\bin\g++.exe    -std=c++1z -o CMakeFiles\cmTC_cafc1.dir\feature_tests.cxx.o -c C:\msys64\home\herb\bin\LearnGL\MyOpenGL_temp\build\CMakeFiles\feature_tests.cxx
+Linking CXX executable cmTC_cafc1.exe
+C:\msys64\mingw64\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_cafc1.dir\link.txt --verbose=1
+C:\msys64\mingw64\bin\cmake.exe -E remove -f CMakeFiles\cmTC_cafc1.dir/objects.a
+C:\msys64\usr\bin\ar.exe cr CMakeFiles\cmTC_cafc1.dir/objects.a @CMakeFiles\cmTC_cafc1.dir\objects1.rsp
+C:\msys64\usr\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_cafc1.dir/objects.a -Wl,--no-whole-archive  -o cmTC_cafc1.exe -Wl,--major-image-version,0,--minor-image-version,0 
+mingw32-make.exe[1]: Leaving directory 'C:/msys64/home/herb/bin/LearnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: C:/msys64/home/herb/bin/LearnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/msys64/mingw64/bin/mingw32-make.exe" "cmTC_124a2/fast"
+C:/msys64/mingw64/bin/mingw32-make.exe -f CMakeFiles\cmTC_124a2.dir\build.make CMakeFiles/cmTC_124a2.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/msys64/home/herb/bin/LearnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_124a2.dir/feature_tests.cxx.o
+C:\msys64\usr\bin\g++.exe    -std=c++14 -o CMakeFiles\cmTC_124a2.dir\feature_tests.cxx.o -c C:\msys64\home\herb\bin\LearnGL\MyOpenGL_temp\build\CMakeFiles\feature_tests.cxx
+Linking CXX executable cmTC_124a2.exe
+C:\msys64\mingw64\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_124a2.dir\link.txt --verbose=1
+C:\msys64\mingw64\bin\cmake.exe -E remove -f CMakeFiles\cmTC_124a2.dir/objects.a
+C:\msys64\usr\bin\ar.exe cr CMakeFiles\cmTC_124a2.dir/objects.a @CMakeFiles\cmTC_124a2.dir\objects1.rsp
+C:\msys64\usr\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_124a2.dir/objects.a -Wl,--no-whole-archive  -o cmTC_124a2.exe -Wl,--major-image-version,0,--minor-image-version,0 
+mingw32-make.exe[1]: Leaving directory 'C:/msys64/home/herb/bin/LearnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: C:/msys64/home/herb/bin/LearnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/msys64/mingw64/bin/mingw32-make.exe" "cmTC_ff9f3/fast"
+C:/msys64/mingw64/bin/mingw32-make.exe -f CMakeFiles\cmTC_ff9f3.dir\build.make CMakeFiles/cmTC_ff9f3.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/msys64/home/herb/bin/LearnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ff9f3.dir/feature_tests.cxx.o
+C:\msys64\usr\bin\g++.exe    -std=c++11 -o CMakeFiles\cmTC_ff9f3.dir\feature_tests.cxx.o -c C:\msys64\home\herb\bin\LearnGL\MyOpenGL_temp\build\CMakeFiles\feature_tests.cxx
+Linking CXX executable cmTC_ff9f3.exe
+C:\msys64\mingw64\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_ff9f3.dir\link.txt --verbose=1
+C:\msys64\mingw64\bin\cmake.exe -E remove -f CMakeFiles\cmTC_ff9f3.dir/objects.a
+C:\msys64\usr\bin\ar.exe cr CMakeFiles\cmTC_ff9f3.dir/objects.a @CMakeFiles\cmTC_ff9f3.dir\objects1.rsp
+C:\msys64\usr\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_ff9f3.dir/objects.a -Wl,--no-whole-archive  -o cmTC_ff9f3.exe -Wl,--major-image-version,0,--minor-image-version,0 
+mingw32-make.exe[1]: Leaving directory 'C:/msys64/home/herb/bin/LearnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: C:/msys64/home/herb/bin/LearnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/msys64/mingw64/bin/mingw32-make.exe" "cmTC_60aeb/fast"
+C:/msys64/mingw64/bin/mingw32-make.exe -f CMakeFiles\cmTC_60aeb.dir\build.make CMakeFiles/cmTC_60aeb.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/msys64/home/herb/bin/LearnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_60aeb.dir/feature_tests.cxx.o
+C:\msys64\usr\bin\g++.exe    -std=c++98 -o CMakeFiles\cmTC_60aeb.dir\feature_tests.cxx.o -c C:\msys64\home\herb\bin\LearnGL\MyOpenGL_temp\build\CMakeFiles\feature_tests.cxx
+Linking CXX executable cmTC_60aeb.exe
+C:\msys64\mingw64\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_60aeb.dir\link.txt --verbose=1
+C:\msys64\mingw64\bin\cmake.exe -E remove -f CMakeFiles\cmTC_60aeb.dir/objects.a
+C:\msys64\usr\bin\ar.exe cr CMakeFiles\cmTC_60aeb.dir/objects.a @CMakeFiles\cmTC_60aeb.dir\objects1.rsp
+C:\msys64\usr\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_60aeb.dir/objects.a -Wl,--no-whole-archive  -o cmTC_60aeb.exe -Wl,--major-image-version,0,--minor-image-version,0 
+mingw32-make.exe[1]: Leaving directory 'C:/msys64/home/herb/bin/LearnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: C:/msys64/home/herb/bin/LearnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/msys64/mingw64/bin/mingw32-make.exe" "cmTC_a6c9c/fast"
+C:/msys64/mingw64/bin/mingw32-make.exe -f CMakeFiles\cmTC_a6c9c.dir\build.make CMakeFiles/cmTC_a6c9c.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/msys64/home/herb/bin/LearnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a6c9c.dir/CheckIncludeFile.c.obj
+C:\msys64\usr\bin\gcc.exe    -o CMakeFiles\cmTC_a6c9c.dir\CheckIncludeFile.c.obj   -c C:\msys64\home\herb\bin\LearnGL\MyOpenGL_temp\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+Linking C executable cmTC_a6c9c.exe
+C:\msys64\mingw64\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_a6c9c.dir\link.txt --verbose=1
+C:\msys64\mingw64\bin\cmake.exe -E remove -f CMakeFiles\cmTC_a6c9c.dir/objects.a
+C:\msys64\usr\bin\ar.exe cr CMakeFiles\cmTC_a6c9c.dir/objects.a @CMakeFiles\cmTC_a6c9c.dir\objects1.rsp
+C:\msys64\usr\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_a6c9c.dir/objects.a -Wl,--no-whole-archive  -o cmTC_a6c9c.exe -Wl,--major-image-version,0,--minor-image-version,0 
+mingw32-make.exe[1]: Leaving directory 'C:/msys64/home/herb/bin/LearnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the pthread_create exist passed with the following output:
+Change Dir: C:/msys64/home/herb/bin/LearnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/msys64/mingw64/bin/mingw32-make.exe" "cmTC_dfad2/fast"
+C:/msys64/mingw64/bin/mingw32-make.exe -f CMakeFiles\cmTC_dfad2.dir\build.make CMakeFiles/cmTC_dfad2.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/msys64/home/herb/bin/LearnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dfad2.dir/CheckSymbolExists.c.obj
+C:\msys64\usr\bin\gcc.exe    -o CMakeFiles\cmTC_dfad2.dir\CheckSymbolExists.c.obj   -c C:\msys64\home\herb\bin\LearnGL\MyOpenGL_temp\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+Linking C executable cmTC_dfad2.exe
+C:\msys64\mingw64\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_dfad2.dir\link.txt --verbose=1
+C:\msys64\mingw64\bin\cmake.exe -E remove -f CMakeFiles\cmTC_dfad2.dir/objects.a
+C:\msys64\usr\bin\ar.exe cr CMakeFiles\cmTC_dfad2.dir/objects.a @CMakeFiles\cmTC_dfad2.dir\objects1.rsp
+C:\msys64\usr\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_dfad2.dir/objects.a -Wl,--no-whole-archive  -o cmTC_dfad2.exe -Wl,--major-image-version,0,--minor-image-version,0 
+mingw32-make.exe[1]: Leaving directory 'C:/msys64/home/herb/bin/LearnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp'
+
+File C:/msys64/home/herb/bin/LearnGL/MyOpenGL_temp/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+

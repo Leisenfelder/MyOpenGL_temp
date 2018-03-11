@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Project Name="SimpleWin" InternalType="">
+	<VirtualDirectory Name="src">
+		<VirtualDirectory Name="lib">
+			<VirtualDirectory Name="glfw">
+				<VirtualDirectory Name="deps">
+					<File Name="../lib/glfw/deps/getopt.c"/>
+					<File Name="../lib/glfw/deps/glad.c"/>
+					<File Name="../lib/glfw/deps/tinycthread.c"/>
+				</VirtualDirectory>
+				<VirtualDirectory Name="src">
+					<File Name="../lib/glfw/src/context.c"/>
+					<File Name="../lib/glfw/src/egl_context.c"/>
+					<File Name="../lib/glfw/src/init.c"/>
+					<File Name="../lib/glfw/src/input.c"/>
+					<File Name="../lib/glfw/src/monitor.c"/>
+					<File Name="../lib/glfw/src/osmesa_context.c"/>
+					<File Name="../lib/glfw/src/vulkan.c"/>
+					<File Name="../lib/glfw/src/wgl_context.c"/>
+					<File Name="../lib/glfw/src/win32_init.c"/>
+					<File Name="../lib/glfw/src/win32_joystick.c"/>
+					<File Name="../lib/glfw/src/win32_monitor.c"/>
+					<File Name="../lib/glfw/src/win32_thread.c"/>
+					<File Name="../lib/glfw/src/win32_time.c"/>
+					<File Name="../lib/glfw/src/win32_window.c"/>
+					<File Name="../lib/glfw/src/window.c"/>
+				</VirtualDirectory>
+			</VirtualDirectory>
+		</VirtualDirectory>
+		<VirtualDirectory Name="src">
+			<File Name="../src/main.cpp"/>
+		</VirtualDirectory>
+	</VirtualDirectory>
+	<VirtualDirectory Name="include">
+		<VirtualDirectory Name="lib">
+			<VirtualDirectory Name="glfw">
+				<VirtualDirectory Name="src">
+					<File Name="lib/glfw/src/glfw_config.h"/>
+				</VirtualDirectory>
+				<VirtualDirectory Name="deps">
+					<File Name="../lib/glfw/deps/getopt.h"/>
+					<VirtualDirectory Name="glad">
+						<File Name="../lib/glfw/deps/glad/glad.h"/>
+					</VirtualDirectory>
+					<File Name="../lib/glfw/deps/tinycthread.h"/>
+				</VirtualDirectory>
+				<VirtualDirectory Name="include">
+					<VirtualDirectory Name="GLFW">
+						<File Name="../lib/glfw/include/GLFW/glfw3.h"/>
+						<File Name="../lib/glfw/include/GLFW/glfw3native.h"/>
+					</VirtualDirectory>
+				</VirtualDirectory>
+				<VirtualDirectory Name="src">
+					<File Name="../lib/glfw/src/egl_context.h"/>
+					<File Name="../lib/glfw/src/internal.h"/>
+					<File Name="../lib/glfw/src/mappings.h"/>
+					<File Name="../lib/glfw/src/osmesa_context.h"/>
+					<File Name="../lib/glfw/src/wgl_context.h"/>
+					<File Name="../lib/glfw/src/win32_joystick.h"/>
+					<File Name="../lib/glfw/src/win32_platform.h"/>
+				</VirtualDirectory>
+			</VirtualDirectory>
+		</VirtualDirectory>
+	</VirtualDirectory>
+	<Settings Type="">
+		<Configuration Name="NoConfig" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+			<Compiler Options="-g" Required="yes" PreCompiledHeader="">
+				<IncludePath Value="."/>
+			</Compiler>
+			<Linker Options="" Required="yes"/>
+			<ResourceCompiler Options="" Required="no"/>
+			<General OutputFile="$(IntermediateDirectory)/$(ProjectName)" IntermediateDirectory="./" Command="./$(ProjectName)" CommandArguments="" WorkingDirectory="$(IntermediateDirectory)" PauseExecWhenProcTerminates="yes"/>
+			<Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="">
+				<PostConnectCommands/>
+				<StartupCommands/>
+			</Debugger>
+			<PreBuild/>
+			<PostBuild/>
+			<CustomBuild Enabled="yes">
+				<RebuildCommand>C:/msys64/mingw64/bin/mingw32-make.exe -j 16 clean &amp;&amp; C:/msys64/mingw64/bin/mingw32-make.exe -j 16</RebuildCommand>
+				<CleanCommand>C:/msys64/mingw64/bin/mingw32-make.exe -j 16 clean</CleanCommand>
+				<BuildCommand>C:/msys64/mingw64/bin/mingw32-make.exe -j 16</BuildCommand>
+				<SingleFileCommand>C:/msys64/mingw64/bin/mingw32-make.exe -f$(ProjectPath)/Makefile $(CurrentFileName).cpp.o</SingleFileCommand>
+				<PreprocessFileCommand/>
+				<WorkingDirectory>$(WorkspacePath)</WorkingDirectory>
+			</CustomBuild>
+			<AdditionalRules>
+				<CustomPostBuild/>
+				<CustomPreBuild/>
+			</AdditionalRules>
+		</Configuration>
+		<GlobalSettings>
+			<Compiler Options="">
+				<IncludePath Value="."/>
+			</Compiler>
+			<Linker Options="">
+				<LibraryPath Value="."/>
+			</Linker>
+			<ResourceCompiler Options=""/>
+		</GlobalSettings>
+	</Settings>
+</CodeLite_Project>
