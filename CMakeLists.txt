@@ -1,23 +1,41 @@
-cmake_minimum_required(VERSION 3.2.3)
-project(SimpleWin)
+#*********************************************************
+#
+#*********************************************************
+
+# Project definition
+cmake_minimum_required(VERSION 3.1)
+project(SimpleGLW)
+
+# Compile Options
+if(MSVC)
+    add_comile_options(/W4)
+else()
+    add_compile_options(-Wall -Wextra -Wpedantic)
+endif()
+
+# Set Dir variables
+set(SRC_DIR "${CMAKE_CURRENT_SOURCE_DIR}/src")
+set(LIB_DIR "${CMAKE_CURRENT_SOURCE_DIR}/lib")
+
+# Source files
+set(SOURCE_FILES ${SRC_DIR}/main.cpp)
+add_executable(${PROJECT_NAME} ${SOURCE_FILES})
+set_property(TARGET ${PROJECT_NAME} PROPERTY CXX_STANDARD 14)
 
 #GLFW additions
-set(GLFW_BUILD_DOCS OFF CACHE BOOL "" FORCE)
-set(GLFW_BUILD_TESTS OFF CACHE BOOL "" FORCE)
-set(GLFW_BUILD_EXAMPLES OFF CACHE BOOL "" FORCE)
+set(GLFW_DIR "${LIB_DIR}/glfw")
+set(GLFW_BUILD_EXAMPLES OFF CACHE INTERNAL "Build the GLFW example programs")
+set(GLFW_BUILD_TESTS OFF CACHE INTERNAL "Build the GLFW test programs")
+set(GLFW_BUILD_DOCS OFF CACHE INTERNAL "Build the GLFW documentation")
+set(GLFW_INSTALL OFF CACHE INTERNAL "Generate installation target")
+add_subdirectory(${GLFW_DIR})
+target_link_libraries(${PROJECT_NAME} glfw ${GLFW_LIBRARIES})
+target_include_directories(${PROJECT_NAME} PRIVATE "${GLFW_DIR}/include") 
+target_compile_definitions(${PROJECT_NAME} PRIVATE "GLFW_INCLUDE_NONE")
 
-add_subdirectory(lib/glfw)
-include_directories(lib/glfw)
-include_directories(lib/glfw/deps)
-include_directories(lib/glfw/include)
-
-set(GLAD "${GLFW_SOURCE_DIR}/deps/glad/glad.h" "${GLFW_SOURCE_DIR}/deps/glad.c")
-set(GETOPT "${GLFW_SOURCE_DIR}/deps/getopt.h" "${GLFW_SOURCE_DIR}/deps/getopt.c")
-set(TINYCTHREAD "${GLFW_SOURCE_DIR}/deps/tinycthread.h" "${GLFW_SOURCE_DIR}/deps/tinycthread.c")
-
-
-set(SOURCE_FILES src/main.cpp)
-
-add_executable(SimpleWin ${SOURCE_FILES} ${TINYCTHREAD} ${GETOPT} ${GLAD})
-
-target_link_libraries(SimpleWin glfw ${GLFW_LIBRARIES})
+# glad
+set(GLAD_DIR "${LIB_DIR}/glad")
+add_library("glad" "${GLAD_DIR}/src/glad.c")
+target_include_directories("glad" PRIVATE "${GLAD_DIR}/include")
+target_include_directories(${PROJECT_NAME} PRIVATE "${GLAD_DIR}/include")
+target_link_libraries(${PROJECT_NAME} "glad" "${CMAKE_DL_LIBS}")

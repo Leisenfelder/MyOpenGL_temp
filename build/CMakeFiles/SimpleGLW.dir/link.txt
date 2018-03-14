@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/SimpleGLW.dir/src/main.cpp.o  -o SimpleGLW -rdynamic lib/glfw/src/libglfw3.a libglad.a -ldl -lrt -lm -ldl -lX11 -lpthread 

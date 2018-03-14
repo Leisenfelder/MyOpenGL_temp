@@ -1,3 +1,1 @@
-C:\msys64\mingw64\bin\cmake.exe -E remove -f CMakeFiles\SimpleWin.dir/objects.a
-C:\msys64\usr\bin\ar.exe cr CMakeFiles\SimpleWin.dir/objects.a @CMakeFiles\SimpleWin.dir\objects1.rsp
-C:\msys64\usr\bin\g++.exe    -Wl,--whole-archive CMakeFiles\SimpleWin.dir/objects.a -Wl,--no-whole-archive  -o SimpleWin.exe -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\SimpleWin.dir\linklibs.rsp
+/usr/bin/c++      CMakeFiles/SimpleWin.dir/src/main.cpp.o CMakeFiles/SimpleWin.dir/lib/glfw/deps/tinycthread.c.o CMakeFiles/SimpleWin.dir/lib/glfw/deps/getopt.c.o CMakeFiles/SimpleWin.dir/lib/glfw/deps/glad.c.o  -o SimpleWin -rdynamic lib/glfw/src/libglfw3.a -lrt -lm -ldl -lX11 -lpthread 

@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/WinGL.dir/src/main.cpp.o CMakeFiles/WinGL.dir/lib/glfw/deps/tinycthread.c.o CMakeFiles/WinGL.dir/lib/glfw/deps/getopt.c.o CMakeFiles/WinGL.dir/lib/glfw/deps/glad.c.o  -o WinGL -rdynamic lib/glfw/src/libglfw3.a -lrt -lm -ldl -lX11 -lpthread 
