@@ -91,7 +91,8 @@ SimpleGLW_EXTERNAL_OBJECTS =
 SimpleGLW: CMakeFiles/SimpleGLW.dir/src/main.cpp.o
 SimpleGLW: CMakeFiles/SimpleGLW.dir/build.make
 SimpleGLW: lib/glfw/src/libglfw3.a
-SimpleGLW: libglad.a
+SimpleGLW: lib/glfw/src/libglfw3.a
+SimpleGLW: /usr/lib/x86_64-linux-gnu/libGLEW.so
 SimpleGLW: /usr/lib/x86_64-linux-gnu/librt.so
 SimpleGLW: /usr/lib/x86_64-linux-gnu/libm.so
 SimpleGLW: /usr/lib/x86_64-linux-gnu/libX11.so

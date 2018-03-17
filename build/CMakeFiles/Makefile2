@@ -60,47 +60,9 @@ CMAKE_SOURCE_DIR = /home/herb/bin/learnCMake/MyOpenGL_temp
 CMAKE_BINARY_DIR = /home/herb/bin/learnCMake/MyOpenGL_temp/build
 
 #=============================================================================
-# Target rules for target CMakeFiles/glad.dir
-
-# All Build rule for target.
-CMakeFiles/glad.dir/all:
-	$(MAKE) -f CMakeFiles/glad.dir/build.make CMakeFiles/glad.dir/depend
-	$(MAKE) -f CMakeFiles/glad.dir/build.make CMakeFiles/glad.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/herb/bin/learnCMake/MyOpenGL_temp/build/CMakeFiles --progress-num=3,4 "Built target glad"
-.PHONY : CMakeFiles/glad.dir/all
-
-# Include target in all.
-all: CMakeFiles/glad.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/glad.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/herb/bin/learnCMake/MyOpenGL_temp/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/glad.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/herb/bin/learnCMake/MyOpenGL_temp/build/CMakeFiles 0
-.PHONY : CMakeFiles/glad.dir/rule
-
-# Convenience name for target.
-glad: CMakeFiles/glad.dir/rule
-
-.PHONY : glad
-
-# clean rule for target.
-CMakeFiles/glad.dir/clean:
-	$(MAKE) -f CMakeFiles/glad.dir/build.make CMakeFiles/glad.dir/clean
-.PHONY : CMakeFiles/glad.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/glad.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
 # Target rules for target CMakeFiles/SimpleGLW.dir
 
 # All Build rule for target.
-CMakeFiles/SimpleGLW.dir/all: CMakeFiles/glad.dir/all
 CMakeFiles/SimpleGLW.dir/all: lib/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f CMakeFiles/SimpleGLW.dir/build.make CMakeFiles/SimpleGLW.dir/depend
 	$(MAKE) -f CMakeFiles/SimpleGLW.dir/build.make CMakeFiles/SimpleGLW.dir/build
@@ -114,7 +76,7 @@ all: CMakeFiles/SimpleGLW.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/SimpleGLW.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/herb/bin/learnCMake/MyOpenGL_temp/build/CMakeFiles 21
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/herb/bin/learnCMake/MyOpenGL_temp/build/CMakeFiles 19
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/SimpleGLW.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/herb/bin/learnCMake/MyOpenGL_temp/build/CMakeFiles 0
 .PHONY : CMakeFiles/SimpleGLW.dir/rule
@@ -177,7 +139,7 @@ lib/glfw/src/preinstall:
 lib/glfw/src/CMakeFiles/glfw.dir/all:
 	$(MAKE) -f lib/glfw/src/CMakeFiles/glfw.dir/build.make lib/glfw/src/CMakeFiles/glfw.dir/depend
 	$(MAKE) -f lib/glfw/src/CMakeFiles/glfw.dir/build.make lib/glfw/src/CMakeFiles/glfw.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/herb/bin/learnCMake/MyOpenGL_temp/build/CMakeFiles --progress-num=5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21 "Built target glfw"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/herb/bin/learnCMake/MyOpenGL_temp/build/CMakeFiles --progress-num=3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19 "Built target glfw"
 .PHONY : lib/glfw/src/CMakeFiles/glfw.dir/all
 
 # Include target in all.

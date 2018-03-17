@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /home/herb/bin/learnCMake/MyOpenGL_temp/build
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/bin/ccmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -77,6 +66,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+	/usr/bin/ccmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -111,19 +111,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named glad
-
-# Build rule for target.
-glad: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 glad
-.PHONY : glad
-
-# fast build rule for target.
-glad/fast:
-	$(MAKE) -f CMakeFiles/glad.dir/build.make CMakeFiles/glad.dir/build
-.PHONY : glad/fast
-
-#=============================================================================
 # Target rules for targets named SimpleGLW
 
 # Build rule for target.
@@ -148,33 +135,6 @@ glfw: cmake_check_build_system
 glfw/fast:
 	$(MAKE) -f lib/glfw/src/CMakeFiles/glfw.dir/build.make lib/glfw/src/CMakeFiles/glfw.dir/build
 .PHONY : glfw/fast
-
-lib/glad/src/glad.o: lib/glad/src/glad.c.o
-
-.PHONY : lib/glad/src/glad.o
-
-# target to build an object file
-lib/glad/src/glad.c.o:
-	$(MAKE) -f CMakeFiles/glad.dir/build.make CMakeFiles/glad.dir/lib/glad/src/glad.c.o
-.PHONY : lib/glad/src/glad.c.o
-
-lib/glad/src/glad.i: lib/glad/src/glad.c.i
-
-.PHONY : lib/glad/src/glad.i
-
-# target to preprocess a source file
-lib/glad/src/glad.c.i:
-	$(MAKE) -f CMakeFiles/glad.dir/build.make CMakeFiles/glad.dir/lib/glad/src/glad.c.i
-.PHONY : lib/glad/src/glad.c.i
-
-lib/glad/src/glad.s: lib/glad/src/glad.c.s
-
-.PHONY : lib/glad/src/glad.s
-
-# target to generate assembly for a file
-lib/glad/src/glad.c.s:
-	$(MAKE) -f CMakeFiles/glad.dir/build.make CMakeFiles/glad.dir/lib/glad/src/glad.c.s
-.PHONY : lib/glad/src/glad.c.s
 
 src/main.o: src/main.cpp.o
 
@@ -209,14 +169,10 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... glad"
+	@echo "... edit_cache"
 	@echo "... SimpleGLW"
 	@echo "... glfw"
-	@echo "... lib/glad/src/glad.o"
-	@echo "... lib/glad/src/glad.i"
-	@echo "... lib/glad/src/glad.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

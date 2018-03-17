@@ -6,34 +6,6 @@
 
 #IncludeRegexTransform: 
 
-../lib/glad/include/KHR/khrplatform.h
-stdint.h
--
-inttypes.h
--
-stdint.h
--
-
-../lib/glad/include/glad/glad.h
-windows.h
--
-stddef.h
--
-KHR/khrplatform.h
--
-inttypes.h
--
-inttypes.h
--
-inttypes.h
--
-stdint.h
--
-stdint.h
--
-inttypes.h
--
-
 ../lib/glfw/include/GLFW/glfw3.h
 stddef.h
 -
@@ -79,10 +51,6 @@ vulkan/vulkan.h
 -
 
 /home/herb/bin/learnCMake/MyOpenGL_temp/src/main.cpp
-glad/glad.h
--
 GLFW/glfw3.h
--
-stdio.h
 -
 

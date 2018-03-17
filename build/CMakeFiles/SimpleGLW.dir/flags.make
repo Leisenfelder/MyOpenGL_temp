@@ -6,5 +6,5 @@ CXX_FLAGS =   -Wall -Wextra -Wpedantic -std=gnu++14
 
 CXX_DEFINES = -DGLFW_INCLUDE_NONE
 
-CXX_INCLUDES = -I/home/herb/bin/learnCMake/MyOpenGL_temp/lib/glfw/include -I/home/herb/bin/learnCMake/MyOpenGL_temp/lib/glad/include 
+CXX_INCLUDES = -I/home/herb/bin/learnCMake/MyOpenGL_temp/lib/glfw/include 
 

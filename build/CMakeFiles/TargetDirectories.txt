@@ -1,6 +1,5 @@
-/home/herb/bin/learnCMake/MyOpenGL_temp/build/CMakeFiles/edit_cache.dir
 /home/herb/bin/learnCMake/MyOpenGL_temp/build/CMakeFiles/rebuild_cache.dir
-/home/herb/bin/learnCMake/MyOpenGL_temp/build/CMakeFiles/glad.dir
+/home/herb/bin/learnCMake/MyOpenGL_temp/build/CMakeFiles/edit_cache.dir
 /home/herb/bin/learnCMake/MyOpenGL_temp/build/CMakeFiles/SimpleGLW.dir
 /home/herb/bin/learnCMake/MyOpenGL_temp/build/lib/glfw/CMakeFiles/rebuild_cache.dir
 /home/herb/bin/learnCMake/MyOpenGL_temp/build/lib/glfw/CMakeFiles/edit_cache.dir

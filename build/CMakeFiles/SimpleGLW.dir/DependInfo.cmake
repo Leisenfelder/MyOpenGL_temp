@@ -16,13 +16,11 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../lib/glfw/include"
-  "../lib/glad/include"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
   "/home/herb/bin/learnCMake/MyOpenGL_temp/build/lib/glfw/src/CMakeFiles/glfw.dir/DependInfo.cmake"
-  "/home/herb/bin/learnCMake/MyOpenGL_temp/build/CMakeFiles/glad.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.
