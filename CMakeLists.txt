@@ -23,6 +23,8 @@ add_executable(${PROJECT_NAME} ${SOURCE_FILES})
 set_property(TARGET ${PROJECT_NAME} PROPERTY CXX_STANDARD 14)
 
 #GLFW additions
+message("GLFW [${LIB_DIR}]")
+find_package(OpenGL REQUIRED)
 set(GLFW_DIR "${LIB_DIR}/glfw")
 set(GLFW_BUILD_EXAMPLES OFF CACHE INTERNAL "Build the GLFW example programs")
 set(GLFW_BUILD_TESTS OFF CACHE INTERNAL "Build the GLFW test programs")
@@ -34,9 +36,10 @@ target_include_directories(${PROJECT_NAME} PRIVATE "${GLFW_DIR}/include")
 target_compile_definitions(${PROJECT_NAME} PRIVATE "GLFW_INCLUDE_NONE")
 
 # glew
+message("GLEW [${LIB_DIR}]")
 find_package(GLEW REQUIRED)
 include_directories(${GLEW_INCLUDE_DIRS})
-target_link_libraries(${PROJECT_NAME} glfw ${GLEW_LIBRARIES})
+target_link_libraries(${PROJECT_NAME} glfw ${GLEW_LIBRARIES} ${OPENGL_LIBRARY})
 
 
 # Set files of Visual Studios 

@@ -1,4 +1,6 @@
+#include <iostream>
 #include <GLFW/glfw3.h>
+#include <GL/glew.h>
 
 int main(void)
 {
@@ -23,7 +25,7 @@ int main(void)
     while (!glfwWindowShouldClose(window))
     {
         /* Render here */
-// glClear(GL_COLOR_BUFFER_BIT);
+        glClear(GL_COLOR_BUFFER_BIT);
 
         /* Swap front and back buffers */
         glfwSwapBuffers(window);
