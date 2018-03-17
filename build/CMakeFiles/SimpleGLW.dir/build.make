@@ -93,6 +93,8 @@ SimpleGLW: CMakeFiles/SimpleGLW.dir/build.make
 SimpleGLW: lib/glfw/src/libglfw3.a
 SimpleGLW: lib/glfw/src/libglfw3.a
 SimpleGLW: /usr/lib/x86_64-linux-gnu/libGLEW.so
+SimpleGLW: /usr/lib/x86_64-linux-gnu/libGLU.so
+SimpleGLW: /usr/lib/x86_64-linux-gnu/libGL.so
 SimpleGLW: /usr/lib/x86_64-linux-gnu/librt.so
 SimpleGLW: /usr/lib/x86_64-linux-gnu/libm.so
 SimpleGLW: /usr/lib/x86_64-linux-gnu/libX11.so
