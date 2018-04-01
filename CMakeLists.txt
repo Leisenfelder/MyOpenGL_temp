@@ -16,6 +16,11 @@ endif()
 # Set Dir variables
 set(SRC_DIR "${CMAKE_CURRENT_SOURCE_DIR}/src")
 set(LIB_DIR "${CMAKE_CURRENT_SOURCE_DIR}/lib")
+set(RES_DIR "${CMAKE_CURRENT_SOURCE_DIR}/res/shaders")
+
+# copy resource files
+configure_file(${RES_DIR}/tri.rs ${CMAKE_CURRENT_BINARY_DIR} COPYONLY)
+configure_file(${RES_DIR}/tri.fs ${CMAKE_CURRENT_BINARY_DIR} COPYONLY)
 
 # Source files
 set(SOURCE_FILES ${SRC_DIR}/main.cpp)

@@ -53,8 +53,12 @@ vulkan/vulkan.h
 /home/herb/bin/learnCMake/MyOpenGL_temp/src/main.cpp
 iostream
 -
-GLFW/glfw3.h
+fstream
+-
+sstream
 -
 GL/glew.h
+-
+GLFW/glfw3.h
 -
 

@@ -17,6 +17,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../lib/glfw/src/glfw3.pc.in"
   "../lib/glfw/src/glfw3Config.cmake.in"
   "../lib/glfw/src/glfw_config.h.in"
+  "../res/shaders/tri.fs"
+  "../res/shaders/tri.rs"
   "/usr/share/cmake-3.7/Modules/BasicConfigVersion-SameMajorVersion.cmake.in"
   "/usr/share/cmake-3.7/Modules/CMakeCInformation.cmake"
   "/usr/share/cmake-3.7/Modules/CMakeCXXInformation.cmake"
@@ -57,6 +59,8 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
+  "tri.rs"
+  "tri.fs"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "lib/glfw/CMakeFiles/CMakeDirectoryInformation.cmake"
   "lib/glfw/src/CMakeFiles/CMakeDirectoryInformation.cmake"
