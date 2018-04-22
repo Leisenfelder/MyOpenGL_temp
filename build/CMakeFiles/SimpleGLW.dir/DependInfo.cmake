@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/herb/bin/learnCMake/MyOpenGL_temp/src/main.cpp" "/home/herb/bin/learnCMake/MyOpenGL_temp/build/CMakeFiles/SimpleGLW.dir/src/main.cpp.o"
+  "/home/herb/bin/learnCMake/MyOpenGL_temp/src/shaderGL.cpp" "/home/herb/bin/learnCMake/MyOpenGL_temp/build/CMakeFiles/SimpleGLW.dir/src/shaderGL.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

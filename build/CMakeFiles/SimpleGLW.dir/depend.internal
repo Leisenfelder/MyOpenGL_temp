@@ -4,3 +4,8 @@
 CMakeFiles/SimpleGLW.dir/src/main.cpp.o
  ../lib/glfw/include/GLFW/glfw3.h
  /home/herb/bin/learnCMake/MyOpenGL_temp/src/main.cpp
+ /home/herb/bin/learnCMake/MyOpenGL_temp/src/shaderGL.h
+CMakeFiles/SimpleGLW.dir/src/shaderGL.cpp.o
+ ../lib/glfw/include/GLFW/glfw3.h
+ /home/herb/bin/learnCMake/MyOpenGL_temp/src/shaderGL.cpp
+ /home/herb/bin/learnCMake/MyOpenGL_temp/src/shaderGL.h

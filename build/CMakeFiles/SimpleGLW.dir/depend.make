@@ -3,4 +3,9 @@
 
 CMakeFiles/SimpleGLW.dir/src/main.cpp.o: ../lib/glfw/include/GLFW/glfw3.h
 CMakeFiles/SimpleGLW.dir/src/main.cpp.o: ../src/main.cpp
+CMakeFiles/SimpleGLW.dir/src/main.cpp.o: ../src/shaderGL.h
+
+CMakeFiles/SimpleGLW.dir/src/shaderGL.cpp.o: ../lib/glfw/include/GLFW/glfw3.h
+CMakeFiles/SimpleGLW.dir/src/shaderGL.cpp.o: ../src/shaderGL.cpp
+CMakeFiles/SimpleGLW.dir/src/shaderGL.cpp.o: ../src/shaderGL.h
 

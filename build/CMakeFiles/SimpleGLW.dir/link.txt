@@ -1,1 +1,1 @@
-/usr/bin/c++      CMakeFiles/SimpleGLW.dir/src/main.cpp.o  -o SimpleGLW -rdynamic lib/glfw/src/libglfw3.a lib/glfw/src/libglfw3.a -lGLEW -lGLU -lGL -lrt -lm -ldl -lX11 -lpthread 
+/usr/bin/c++      CMakeFiles/SimpleGLW.dir/src/main.cpp.o CMakeFiles/SimpleGLW.dir/src/shaderGL.cpp.o  -o SimpleGLW -rdynamic lib/glfw/src/libglfw3.a lib/glfw/src/libglfw3.a -lGLEW -lGLU -lGL -lrt -lm -ldl -lX11 -lpthread 

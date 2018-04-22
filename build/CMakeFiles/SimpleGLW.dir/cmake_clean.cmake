@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/SimpleGLW.dir/src/main.cpp.o"
+  "CMakeFiles/SimpleGLW.dir/src/shaderGL.cpp.o"
   "SimpleGLW.pdb"
   "SimpleGLW"
 )

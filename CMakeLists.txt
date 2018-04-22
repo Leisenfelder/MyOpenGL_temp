@@ -23,7 +23,7 @@ configure_file(${RES_DIR}/tri.rs ${CMAKE_CURRENT_BINARY_DIR} COPYONLY)
 configure_file(${RES_DIR}/tri.fs ${CMAKE_CURRENT_BINARY_DIR} COPYONLY)
 
 # Source files
-set(SOURCE_FILES ${SRC_DIR}/main.cpp)
+set(SOURCE_FILES ${SRC_DIR}/main.cpp ${SRC_DIR}/shaderGL.cpp ${SRC_DIR}/shaderGL.h)
 add_executable(${PROJECT_NAME} ${SOURCE_FILES})
 set_property(TARGET ${PROJECT_NAME} PROPERTY CXX_STANDARD 14)
 

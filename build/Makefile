@@ -163,6 +163,33 @@ src/main.cpp.s:
 	$(MAKE) -f CMakeFiles/SimpleGLW.dir/build.make CMakeFiles/SimpleGLW.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/shaderGL.o: src/shaderGL.cpp.o
+
+.PHONY : src/shaderGL.o
+
+# target to build an object file
+src/shaderGL.cpp.o:
+	$(MAKE) -f CMakeFiles/SimpleGLW.dir/build.make CMakeFiles/SimpleGLW.dir/src/shaderGL.cpp.o
+.PHONY : src/shaderGL.cpp.o
+
+src/shaderGL.i: src/shaderGL.cpp.i
+
+.PHONY : src/shaderGL.i
+
+# target to preprocess a source file
+src/shaderGL.cpp.i:
+	$(MAKE) -f CMakeFiles/SimpleGLW.dir/build.make CMakeFiles/SimpleGLW.dir/src/shaderGL.cpp.i
+.PHONY : src/shaderGL.cpp.i
+
+src/shaderGL.s: src/shaderGL.cpp.s
+
+.PHONY : src/shaderGL.s
+
+# target to generate assembly for a file
+src/shaderGL.cpp.s:
+	$(MAKE) -f CMakeFiles/SimpleGLW.dir/build.make CMakeFiles/SimpleGLW.dir/src/shaderGL.cpp.s
+.PHONY : src/shaderGL.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -176,6 +203,9 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/shaderGL.o"
+	@echo "... src/shaderGL.i"
+	@echo "... src/shaderGL.s"
 .PHONY : help
 
 

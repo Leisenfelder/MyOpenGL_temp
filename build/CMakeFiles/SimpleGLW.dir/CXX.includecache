@@ -61,4 +61,22 @@ GL/glew.h
 -
 GLFW/glfw3.h
 -
+shaderGL.h
+/home/herb/bin/learnCMake/MyOpenGL_temp/src/shaderGL.h
+
+/home/herb/bin/learnCMake/MyOpenGL_temp/src/shaderGL.cpp
+iostream
+-
+fstream
+-
+sstream
+-
+GL/glew.h
+-
+GLFW/glfw3.h
+-
+shaderGL.h
+/home/herb/bin/learnCMake/MyOpenGL_temp/src/shaderGL.h
+
+/home/herb/bin/learnCMake/MyOpenGL_temp/src/shaderGL.h
 
