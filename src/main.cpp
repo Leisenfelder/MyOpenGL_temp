@@ -11,9 +11,6 @@
 
 #include "shaderGL.h"
 
-// Window dimensions
-const GLuint WIDTH = 800, HEIGHT = 600;
-
 // Shaders
 
 
@@ -63,7 +60,8 @@ int main()
     // Build and compile our shader program
     // Vertex shader
  
-    unsigned int shader = CreateShader("tri.rs", "tri.fs");
+    shaderGL myShader;
+    unsigned int shader = myShader.CreateShader("tri.rs", "tri.fs");
     
     // Set up vertex data (and buffer(s)) and attribute pointers
     GLfloat vertices[] =

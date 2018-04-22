@@ -19,20 +19,22 @@
 #ifndef SHADER_H
 #define SHADER_H
 
-// Shaders
+// Window dimensions
+const GLuint WIDTH = 800, HEIGHT = 600;
+
 
 class shaderGL
 {
 
 public:
 
-    unsigned int CreateShader(const std::string& vsSource, const std::string fgSource)
+    unsigned int CreateShader(const GLchar *vertexPath, const GLchar *fragmentPath);
 
 private:
 
-    std::string parseFile(const std::string& glCode)
+    std::string parseFile(const std::string& glCode);
 
-    unsigned int CompileShader(unsigned int type, const std::string& source)
+    unsigned int CompileShader(unsigned int type, const std::string& source);
 
-}
+};
 #endif

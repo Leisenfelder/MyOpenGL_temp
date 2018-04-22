@@ -81,7 +81,7 @@ unsigned int shaderGL::CreateShader(const GLchar *vertexPath, const GLchar *frag
 
     // Build and compile our shader program
     const std::string vertexShaderSource{parseFile(vertexPath)};
-    const std::string fragmentShaderSource{parseFile{(fragmentPath)};
+    const std::string fragmentShaderSource{parseFile(fragmentPath)};
     // Vertex shader
     unsigned int vertexShader = CompileShader(GL_VERTEX_SHADER, vertexShaderSource);
     unsigned int fragmentShader = CompileShader(GL_FRAGMENT_SHADER, fragmentShaderSource);
