@@ -1,0 +1,5 @@
+[ 85%] Built target glfw
+[ 90%] Building CXX object CMakeFiles/SimpleGLW.dir/src/main.cpp.o
+CMakeFiles/SimpleGLW.dir/build.make:62: ターゲット 'CMakeFiles/SimpleGLW.dir/src/main.cpp.o' のレシピで失敗しました
+CMakeFiles/Makefile2:67: ターゲット 'CMakeFiles/SimpleGLW.dir/all' のレシピで失敗しました
+Makefile:83: ターゲット 'all' のレシピで失敗しました

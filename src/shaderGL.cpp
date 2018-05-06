@@ -21,6 +21,7 @@
 #include <iostream>
 #include <fstream>
 #include <sstream>
+#include <string>
 
 // GLEW
 #define GLEW_STATIC
@@ -76,36 +77,47 @@ unsigned int shaderGL::CompileShader(unsigned int type, const std::string& sourc
 
 }
 
-unsigned int shaderGL::CreateShader(const GLchar *vertexPath, const GLchar *fragmentPath)
+void shaderGL::CreateShader(const GLchar* vertexPath, const GLchar* fragmentPath)
 { 
 
-    // Build and compile our shader program
+    // load GL source code of vertex and frament shaders
     const std::string vertexShaderSource{parseFile(vertexPath)};
     const std::string fragmentShaderSource{parseFile(fragmentPath)};
-    // Vertex shader
+    
+    // complite vertex and fragment shaders 
     unsigned int vertexShader = CompileShader(GL_VERTEX_SHADER, vertexShaderSource);
     unsigned int fragmentShader = CompileShader(GL_FRAGMENT_SHADER, fragmentShaderSource);
     
-    // Link shaders
-    GLuint shaderProgram = glCreateProgram( );
-    glAttachShader( shaderProgram, vertexShader );
-    glAttachShader( shaderProgram, fragmentShader );
-    glLinkProgram( shaderProgram );
+    // create shader program and link shaders to it
+    this->shaderProgram = glCreateProgram();
+    glAttachShader(this->shaderProgram, vertexShader);
+    glAttachShader(this->shaderProgram, fragmentShader);
+    glLinkProgram(this->shaderProgram);
     
     // Check for linking errors
     int success;
     GLchar infoLog[512];
-    glGetProgramiv( shaderProgram, GL_LINK_STATUS, &success );
+    glGetProgramiv(this->shaderProgram, GL_LINK_STATUS, &success);
     
-    if ( !success )
+    if (!success)
     {
-        glGetProgramInfoLog( shaderProgram, 512, NULL, infoLog );
+        glGetProgramInfoLog(shaderProgram, 512, NULL, infoLog);
         std::cout << "ERROR::SHADER::PROGRAM::LINKING_FAILED\n" << infoLog << std::endl;
     }
     
-    glDeleteShader( vertexShader );
-    glDeleteShader( fragmentShader );
-    
-    return shaderProgram;
+    glDeleteShader(vertexShader);
+    glDeleteShader(fragmentShader);
+
+}
+// method for using created shader program
+void shaderGL::use()
+{
+    glUseProgram(this->shaderProgram);
+
 }
 
+void shaderGL::del()
+{
+    glDeleteProgram(this->shaderProgram);
+
+}

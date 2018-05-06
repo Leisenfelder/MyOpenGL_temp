@@ -28,7 +28,13 @@ class shaderGL
 
 public:
 
-    unsigned int CreateShader(const GLchar *vertexPath, const GLchar *fragmentPath);
+    GLuint shaderProgram;
+
+    void CreateShader(const GLchar* vertexPath, const GLchar* fragmentPath);
+
+    void use();
+    
+    void del();
 
 private:
 
